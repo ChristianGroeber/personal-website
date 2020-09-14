@@ -1,0 +1,15 @@
+version: "3"
+
+services:
+    pico:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        ports:
+            - '83:80'
+        volumes: 
+            - ./content:/app/content
+            - ./assets:/app/assets
+            - ./themes:/app/themes
+            - ./config:/app/config
+            - ./plugins:/app/plugins
