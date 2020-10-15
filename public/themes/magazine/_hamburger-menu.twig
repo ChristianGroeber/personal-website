@@ -1,0 +1,65 @@
+<div id="fh5co-offcanvas" itemscope="itemscope" itemtype="http://schema.org/WPSideBar">
+    <a href="#" name="close menu" class="fh5co-close-offcanvas js-fh5co-close-offcanvas"><span><i
+                    class="icon-cross3"></i> <span>Close</span></span></a>
+
+    <div class="fh5co-menu">
+        <div class="fh5co-box">
+            <form action="{{ 'search'|link }}" method="get">
+                <div class="form-group">
+                    <input type="text" name="q" class="form-control"
+                           {% if meta.template == 'search' %}value="{{ request.query.q }}"{% endif %}
+                           placeholder="Type a keyword">
+                </div>
+            </form>
+        </div>
+
+        <div class="fh5co-box">
+            {% if config.magazine.show_categories %}
+                <h3 class="heading">Categories</h3>
+                <ul>
+                    {% for cat, cated_pages in pico_categories_page %}
+                        <li>
+                            <h4><b>{{ cat }}</b></h4>
+                            <ul>
+                                {% for cated_page_title, cated_page_link in cated_pages %}
+                                    <li><a href="{{ cated_page_link }}">{{ cated_page_title }}</a></li>
+                                {% endfor %}
+                            </ul>
+                        </li>
+                    {% endfor %}
+                </ul>
+            {% else %}
+                <div class="sidebar-nav-links">
+                    {% for name, page in nav %}
+                        <div class="nav-item">
+                            <a href="/{{ name }}">{{ name }}</a>
+                        </div>
+                    {% endfor %}
+                </div>
+            {% endif %}
+        </div>
+    </div>
+    <div class="fh5co-bio">
+        <figure>
+            {% if config.magazine.author.image %}
+                <img src="{{ config.magazine.author.image }}" alt="{{ config.author }}" class="img-responsive">
+            {% else %}
+                <img src="{{ theme_url }}/images/person1.jpg" alt="{{ config.author }}" class="img-responsive">
+            {% endif %}
+        </figure>
+        <h3 class="heading">About Me</h3>
+        <h2>{{ config.author }}</h2>
+        <p>{{ config.magazine.author.description }}</p>
+        <ul class="fh5co-social">
+            {% if config.magazine.author.twitter %}
+                <li><a href="{{ config.magazine.author.twitter }}"><i class="icon-twitter"></i></a></li>
+            {% endif %}
+            {% if config.magazine.author.facebook %}
+                <li><a href="{{ config.magazine.author.facebook }}"><i class="icon-facebook"></i></a></li>
+            {% endif %}
+            {% if config.magazine.author.instagram %}
+                <li><a href="{{ config.magazine.author.instagram }}"><i class="icon-instagram"></i></a></li>
+            {% endif %}
+        </ul>
+    </div>
+</div>

@@ -1,0 +1,11 @@
+form {
+    @media screen and (max-width: 1000px) {
+        .row {
+            max-width: 100%;
+            margin: 0 !important;
+        }
+        div[class^="col"] {
+            padding: 0 !important;
+        }
+    }
+}

@@ -1,11 +1,11 @@
 ##
 # Basic
 #
-site_title: Pico                    # The title of your website
-base_url: ~                         # Pico will try to guess its base URL, if this fails, override it here;
+site_title: Christian Gröber        # The title of your website
+base_url: /                         # Pico will try to guess its base URL, if this fails, override it here;
                                     #     Example: https://example.com/pico/
-rewrite_url: ~                      # A boolean (true or false) indicating whether URL rewriting is forced
-debug: ~                            # Set this to true to enable Pico's debug mode
+rewrite_url: true                      # A boolean (true or false) indicating whether URL rewriting is forced
+debug: false                            # Set this to true to enable Pico's debug mode
 timezone: ~                         # Your PHP installation might require you to manually specify a timezone
 locale: ~                           # Your PHP installation might require you to manually specify a locale to use
 
@@ -15,14 +15,6 @@ facebook: 'https://facebook.com/ChristianGroeber'
 twitter: '@kristophersson'
 
 
-# Needed for Magazine theme
-authordescription: 'Web Developer'
-authortwitter: 'https://twitter.com/christiangr1998'
-authorfacebook: ''
-authorinstagram: ''
-authorimage: ''
-numPerPage: 16
-
 
 # Pico Output format
 PicoOutput:
@@ -30,17 +22,48 @@ PicoOutput:
 
 # Pico Debug Plugin
 zz_pico_debug:
-    enabled: true
-    php_errors: true
+    enabled: false
+    php_errors: false
 
 RssMaker:
     enabled: true
 
+magazine:
+    share:
+        twitter: true
+        facebook: false
+        google: false
+        linkedin: false
+    show_trademark: false
+    show_categories: false
+    author:
+        description: 'Web Developer'
+        twitter: 'https://twitter.com/christiangr1998'
+        facebook: ''
+        instagram: ''
+        image: ''
+    numPerPage: 16
+
+
+PicoImageProcessor:
+    downloadImages: true
+
+color_theme: dark
+
+langISO: 'de'
+
+serviceWorkerEnabled: false
+serviceWorkerScope: '/'
+
+twig_date_format: 'd.m.Y'
+twig_time_format: 'H:i'
+twig_date_time_format: 'd.m.Y H:i'
+
 ##
 # Theme
 #
-theme: pikion                      # The name of your custom theme
-themes_url: ~                       # Pico will try to guess the URL to the themes dir of your installation;
+theme: magazine                      # The name of your custom theme
+themes_url: /themes                       # Pico will try to guess the URL to the themes dir of your installation;
                                     #     If this fails, override it here. Example: https://example.com/pico/themes/
 theme_config:                       # Additional theme-specific config
     widescreen: false               # Default theme: Use more horizontal space (i.e. make the site container wider)
@@ -60,7 +83,7 @@ date_format: %D %T                  # Pico's default date format;
 pages_order_by_meta: author         # Sort pages by meta value "author" (set "pages_order_by" to "meta")
 pages_order_by: alpha               # Change how Pico sorts pages ("alpha" for alphabetical order, "date", or "meta")
 pages_order: asc                    # Sort pages in ascending ("asc") or descending ("desc") order
-content_dir: ~                      # The path to Pico's content directory
+content_dir: /app/content                      # The path to Pico's content directory
 content_ext: .md                    # The file extension of your Markdown files
 content_config:                     # Parsedown Markdown parser config
     extra: true                     # Use the Parsedown Extra parser to support extended markup;
@@ -81,7 +104,3 @@ plugins_url: ~                      # Pico will try to guess the URL to the plug
                                     #     If this fails, override it here. Example: https://example.com/pico/plugins/
 DummyPlugin.enabled: false          # Force the plugin "DummyPlugin" to be disabled
 
-##
-# Custom
-#
-my_custom_setting: Hello World!     # You can access custom settings in themes using {{ config.my_custom_setting }}

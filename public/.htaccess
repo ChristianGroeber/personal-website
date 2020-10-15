@@ -1,0 +1,28 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    # May be required to access sub directories
+    RewriteBase /
+
+    # Deny access to internal dirs and files by passing the URL to Pico
+    RewriteRule (^\.|/\.)(?!well-known(/|$)) index.php [L]
+
+    # Enable URL rewriting
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^ index.php [L]
+
+
+    <IfModule mod_env.c>
+        # Let Pico know about available URL rewriting
+        SetEnv PICO_URL_REWRITING 1
+    </IfModule>
+
+    <FilesMatch "\.(js)$">
+        <IfModule mod_headers.c>
+            Header set Service-Worker-Allowed "/"
+        </IfModule>
+    </FilesMatch>
+</IfModule>
+
+# Prevent file browsing
+Options -Indexes -MultiViews

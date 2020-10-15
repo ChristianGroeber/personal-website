@@ -1,16 +1,37 @@
-FROM k0st/alpine-apache-php
+FROM php:7.4-apache
 
-ENV WORKDIR /app
+RUN docker-php-ext-install pdo_mysql
 
-RUN apk --update add git zip unzip php-dom php-ctype bash 
+RUN pecl install apcu
 
-RUN composer self-update
+RUN a2enmod rewrite
+RUN a2enmod headers
 
-RUN wget -P /tmp https://github.com/picocms/Pico/releases/download/v2.1.4/pico-release-v2.1.4.zip
-RUN unzip -u /tmp/pico-release-v2.1.4.zip -d /app
+RUN apt-get update && \
+    apt-get install -y \
+    libzip-dev \
+    libmcrypt-dev \
+    libfreetype6-dev \
+    libjpeg62-turbo-dev \
+    libicu-dev \
+    zlib1g-dev \
+    snapd \
+    unzip \
+    wget \
+    libpng-dev
 
-WORKDIR $WORKDIR
 
-RUN composer install --no-interaction
+RUN pecl install mcrypt-1.0.3
+RUN docker-php-ext-enable mcrypt
 
-EXPOSE 80
+RUN docker-php-ext-configure gd --enable-gd --with-jpeg
+
+RUN docker-php-ext-install gd
+
+RUN docker-php-ext-install zip
+RUN docker-php-ext-enable apcu
+
+RUN docker-php-ext-configure intl
+RUN docker-php-ext-install intl
+
+WORKDIR /var/www/html

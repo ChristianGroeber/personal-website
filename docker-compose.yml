@@ -6,10 +6,9 @@ services:
             context: .
             dockerfile: Dockerfile
         ports:
-            - '83:80'
+            - '84:80'
+        environment:
+            PICO_URL_REWRITING: 1
         volumes: 
-            - ./content:/app/content
-            - ./assets:/app/assets
-            - ./themes:/app/themes
-            - ./config:/app/config
-            - ./plugins:/app/plugins
+            - ./public:/var/www/html
+            - ./:/app

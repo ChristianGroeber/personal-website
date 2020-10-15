@@ -1,0 +1,4 @@
+---
+Template: subindex
+Title: Photography
+---
