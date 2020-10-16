@@ -47,6 +47,13 @@ magazine:
 
 PicoImageProcessor:
     downloadImages: true
+    sizes:
+        thumb: 200
+        appicon: 150
+        400: 400
+        750: 750
+        1000: 1000
+    defaultImage: 'https://safetyaustraliagroup.com.au/wp-content/uploads/2019/05/image-not-found.png'
 
 color_theme: dark
 
@@ -62,7 +69,7 @@ twig_date_time_format: 'd.m.Y H:i'
 ##
 # Theme
 #
-theme: magazine                      # The name of your custom theme
+theme: smartsite                      # The name of your custom theme
 themes_url: /themes                       # Pico will try to guess the URL to the themes dir of your installation;
                                     #     If this fails, override it here. Example: https://example.com/pico/themes/
 theme_config:                       # Additional theme-specific config

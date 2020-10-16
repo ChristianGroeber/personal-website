@@ -1,8 +1,9 @@
 ---
-template: single
+template: app
 title: Your very own Password Manager
 description: How you can create your very own password manager, 100% for free
 date: 2020-09-29
+Thumbnail: https://cdn6.aptoide.com/imgs/5/b/3/5b37085e5661d10ae4a8fcae828b483a_icon.png
 ---
 
 Password managers like [Lastpass](https://lastpass.com) and [1Password](https://1password.com) have been gaining a lot of mainstream popularity over the past few years. And while those are very good alternatives to chrome's built-in Password Manager, they can be a bit pricy. 

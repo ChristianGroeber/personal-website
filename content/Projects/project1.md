@@ -1,5 +1,5 @@
 ---
-Template: single
+Template: app
 Date: 2020-09-16
 Author: Chrisitan Gröber
 Title: This is my first project

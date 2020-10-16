@@ -1,0 +1,49 @@
+$themes: (
+        'default': (
+                'background-color': $brand-white,
+                'color': $brand-black,
+                'brand-primary': $brand-primary,
+        ),
+        'dark': (
+                'background-color': black,
+                'color': white,
+                'primary': #d55080,
+        )
+);
+
+@mixin theme($theme) {
+    body {
+        background-color: map_get($theme, 'background-color') !important;
+        color: map_get($theme, 'color') !important;
+    }
+
+    #fh5co-offcanvas {
+        background-color: map_get($theme, 'background-color') !important;
+        color: map_get($theme, 'color') !important;
+    }
+
+    a {
+        color: map_get($theme, 'primary');
+    }
+
+    .fh5co-article-title {
+        a {
+            color: map_get($theme, 'color') !important;
+        }
+    }
+    h2.fh5co-article-title {
+        color: map_get($theme, 'color');
+    }
+
+    .fh5co-social {
+        a {
+            color: map_get($theme, 'color');
+        }
+    }
+}
+
+@each $key, $value in $themes {
+    html[theme='#{$key}'] {
+        @include theme($value);
+    }
+}

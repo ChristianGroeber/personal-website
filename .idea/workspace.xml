@@ -2,661 +2,64 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e132b9a-f03e-40b9-81d3-39628ec70ad1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/christian-groeber.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/options.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/404.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/Categories.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/DIY/Your own Password-manager.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/DIY/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/Photography/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/Projects/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/Projects/project1.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/Search.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/ServiceWorker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/search.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugins/10-Pagination.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugins/40-PicoSearch.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugins/Comment.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugins/EnableServiceWorkersScope.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugins/MetaParser.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugins/PicoCategorizedPages.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugins/PicoImageProcessor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugins/Request.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugins/SubPages.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugins/ThemeChooser.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugins/TwigGetUrl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugins/pico_categories_page/pico_categories_page.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/comment.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/comments.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/custom.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/downloads/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/httpstatus.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/pictures/Not%20Hotdog.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/pictures/Projects/new-york.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/pictures/asdfasdftest-pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/pictures/ccXGJxw.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/pictures/new-york.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/pictures/pexels-artem-beliaikin-853199.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/pictures/test-pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/themes/NotePaper/animations.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/themes/NotePaper/images/body-background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/themes/NotePaper/images/buttons/button_first.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/themes/NotePaper/images/buttons/button_last.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/themes/NotePaper/images/buttons/button_next.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/themes/NotePaper/images/buttons/button_prev.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/themes/NotePaper/images/buttons/button_separator.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/themes/NotePaper/images/buttons/button_top.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/themes/NotePaper/images/main-background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/themes/NotePaper/index.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/themes/NotePaper/scripts/modernizr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/themes/NotePaper/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/themes/attache/404.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/themes/attache/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/themes/attache/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/themes/attache/css/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/themes/attache/css/project.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/themes/attache/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/themes/attache/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/themes/attache/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/themes/attache/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/themes/attache/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/themes/attache/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/themes/attache/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/themes/attache/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/themes/attache/index.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/themes/attache/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/themes/attache/js/masonry.pkgd.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/themes/attache/js/simplex-noise.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/themes/attache/js/theme.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/themes/attache/project.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/themes/magazine/404.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/themes/magazine/_footer.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/themes/magazine/_hamburger-menu.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/themes/magazine/_header.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/themes/magazine/base.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/themes/magazine/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/themes/magazine/css/main.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/themes/magazine/css/pure.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/themes/magazine/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/themes/magazine/css/style.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/themes/magazine/css/style.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/themes/magazine/index.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/themes/magazine/js/ServiceWorker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/themes/magazine/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/themes/magazine/new-index.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/themes/magazine/sass/_animate.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/themes/magazine/sass/_flexslider.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/themes/magazine/sass/_iconmoon.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/themes/magazine/sass/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/themes/magazine/sass/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/themes/magazine/sass/form.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/themes/magazine/sass/main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/themes/magazine/sass/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/themes/magazine/sass/themes.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/themes/magazine/search.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/themes/magazine/single.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/themes/magazine/sub-index.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/themes/magazine/subindex.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cms/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cms/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/public/.htaccess" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cms/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cms/CONTRIBUTING.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cms/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cms/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cms/assets/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cms/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cms/composer.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cms/config/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cms/config/config.yml.template" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cms/content/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cms/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cms/plugins/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cms/themes/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/.gitignore" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/Dummy2.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/Dummy3.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/Dummy4.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/Paris.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/themes/magazine/content.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/themes/smartsite/404.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/themes/smartsite/_footer.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/themes/smartsite/_header.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/themes/smartsite/app.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/themes/smartsite/base.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/themes/smartsite/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/themes/smartsite/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/themes/smartsite/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/themes/smartsite/css/flexslider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/themes/smartsite/css/icomoon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/themes/smartsite/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/themes/smartsite/css/main.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/themes/smartsite/css/pure.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/themes/smartsite/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/themes/smartsite/css/style.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/themes/smartsite/css/style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/themes/smartsite/fonts/icomoon/icomoon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/themes/smartsite/fonts/icomoon/icomoon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/themes/smartsite/fonts/icomoon/icomoon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/themes/smartsite/fonts/icomoon/icomoon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/themes/smartsite/images/loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/themes/smartsite/index.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/themes/smartsite/js/ServiceWorker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/themes/smartsite/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/themes/smartsite/js/jquery.easing.1.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/themes/smartsite/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/themes/smartsite/js/jquery.waypoints.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/themes/smartsite/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/themes/smartsite/js/modernizr-2.6.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/themes/smartsite/js/respond.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/themes/smartsite/sass/_animate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/themes/smartsite/sass/_bootstrap-compass.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/themes/smartsite/sass/_bootstrap-mincer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/themes/smartsite/sass/_bootstrap-sprockets.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/themes/smartsite/sass/_flexslider.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/themes/smartsite/sass/_iconmoon.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/themes/smartsite/sass/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/themes/smartsite/sass/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/themes/smartsite/sass/form.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/themes/smartsite/sass/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/themes/smartsite/sass/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/themes/smartsite/sass/themes.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/themes/smartsite/search.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/themes/smartsite/sub-index.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/themes/smartsite/subindex.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/config.yml.template" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/blog/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/blog/post.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/blog/post1.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/post.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/Categories.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/DIY/Your own Password-manager.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/DIY/Your own Password-manager.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/Projects/project1.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/Projects/project1.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/pico_edit/libs/epiceditor/themes/preview/bartik.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/pico_edit/libs/epiceditor/themes/preview/github.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/pico_edit/libs/epiceditor/themes/preview/preview-dark.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bitsandpieces/font/SourceSansPro-Black.eot" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/bitsandpieces/font/SourceSansPro-Black.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bitsandpieces/font/SourceSansPro-Black.otf" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/bitsandpieces/font/SourceSansPro-Black.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bitsandpieces/font/SourceSansPro-Black.otf.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/bitsandpieces/font/SourceSansPro-Black.otf.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bitsandpieces/font/SourceSansPro-Black.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/bitsandpieces/font/SourceSansPro-Black.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bitsandpieces/font/SourceSansPro-BlackIt.eot" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/bitsandpieces/font/SourceSansPro-BlackIt.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bitsandpieces/font/SourceSansPro-BlackIt.otf" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/bitsandpieces/font/SourceSansPro-BlackIt.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bitsandpieces/font/SourceSansPro-BlackIt.otf.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/bitsandpieces/font/SourceSansPro-BlackIt.otf.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bitsandpieces/font/SourceSansPro-BlackIt.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/bitsandpieces/font/SourceSansPro-BlackIt.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bitsandpieces/font/SourceSansPro-Bold.eot" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/bitsandpieces/font/SourceSansPro-Bold.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bitsandpieces/font/SourceSansPro-Bold.otf" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/bitsandpieces/font/SourceSansPro-Bold.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bitsandpieces/font/SourceSansPro-Bold.otf.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/bitsandpieces/font/SourceSansPro-Bold.otf.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bitsandpieces/font/SourceSansPro-Bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/bitsandpieces/font/SourceSansPro-Bold.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bitsandpieces/font/SourceSansPro-BoldIt.eot" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/bitsandpieces/font/SourceSansPro-BoldIt.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bitsandpieces/font/SourceSansPro-BoldIt.otf" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/bitsandpieces/font/SourceSansPro-BoldIt.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bitsandpieces/font/SourceSansPro-BoldIt.otf.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/bitsandpieces/font/SourceSansPro-BoldIt.otf.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bitsandpieces/font/SourceSansPro-BoldIt.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/bitsandpieces/font/SourceSansPro-BoldIt.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bitsandpieces/font/SourceSansPro-ExtraLight.eot" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/bitsandpieces/font/SourceSansPro-ExtraLight.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bitsandpieces/font/SourceSansPro-ExtraLight.otf" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/bitsandpieces/font/SourceSansPro-ExtraLight.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bitsandpieces/font/SourceSansPro-ExtraLight.otf.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/bitsandpieces/font/SourceSansPro-ExtraLight.otf.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bitsandpieces/font/SourceSansPro-ExtraLight.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/bitsandpieces/font/SourceSansPro-ExtraLight.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bitsandpieces/font/SourceSansPro-ExtraLightIt.eot" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/bitsandpieces/font/SourceSansPro-ExtraLightIt.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bitsandpieces/font/SourceSansPro-ExtraLightIt.otf" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/bitsandpieces/font/SourceSansPro-ExtraLightIt.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bitsandpieces/font/SourceSansPro-ExtraLightIt.otf.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/bitsandpieces/font/SourceSansPro-ExtraLightIt.otf.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bitsandpieces/font/SourceSansPro-ExtraLightIt.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/bitsandpieces/font/SourceSansPro-ExtraLightIt.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bitsandpieces/font/SourceSansPro-It.eot" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/bitsandpieces/font/SourceSansPro-It.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bitsandpieces/font/SourceSansPro-It.otf" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/bitsandpieces/font/SourceSansPro-It.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bitsandpieces/font/SourceSansPro-It.otf.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/bitsandpieces/font/SourceSansPro-It.otf.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bitsandpieces/font/SourceSansPro-It.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/bitsandpieces/font/SourceSansPro-It.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bitsandpieces/font/SourceSansPro-Light.eot" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/bitsandpieces/font/SourceSansPro-Light.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bitsandpieces/font/SourceSansPro-Light.otf" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/bitsandpieces/font/SourceSansPro-Light.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bitsandpieces/font/SourceSansPro-Light.otf.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/bitsandpieces/font/SourceSansPro-Light.otf.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bitsandpieces/font/SourceSansPro-Light.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/bitsandpieces/font/SourceSansPro-Light.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bitsandpieces/font/SourceSansPro-LightIt.eot" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/bitsandpieces/font/SourceSansPro-LightIt.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bitsandpieces/font/SourceSansPro-LightIt.otf" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/bitsandpieces/font/SourceSansPro-LightIt.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bitsandpieces/font/SourceSansPro-LightIt.otf.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/bitsandpieces/font/SourceSansPro-LightIt.otf.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bitsandpieces/font/SourceSansPro-LightIt.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/bitsandpieces/font/SourceSansPro-LightIt.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bitsandpieces/font/SourceSansPro-Regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/bitsandpieces/font/SourceSansPro-Regular.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bitsandpieces/font/SourceSansPro-Regular.otf" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/bitsandpieces/font/SourceSansPro-Regular.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bitsandpieces/font/SourceSansPro-Regular.otf.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/bitsandpieces/font/SourceSansPro-Regular.otf.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bitsandpieces/font/SourceSansPro-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/bitsandpieces/font/SourceSansPro-Regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bitsandpieces/font/SourceSansPro-Semibold.eot" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/bitsandpieces/font/SourceSansPro-Semibold.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bitsandpieces/font/SourceSansPro-Semibold.otf" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/bitsandpieces/font/SourceSansPro-Semibold.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bitsandpieces/font/SourceSansPro-Semibold.otf.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/bitsandpieces/font/SourceSansPro-Semibold.otf.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bitsandpieces/font/SourceSansPro-Semibold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/bitsandpieces/font/SourceSansPro-Semibold.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bitsandpieces/font/SourceSansPro-SemiboldIt.eot" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/bitsandpieces/font/SourceSansPro-SemiboldIt.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bitsandpieces/font/SourceSansPro-SemiboldIt.otf" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/bitsandpieces/font/SourceSansPro-SemiboldIt.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bitsandpieces/font/SourceSansPro-SemiboldIt.otf.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/bitsandpieces/font/SourceSansPro-SemiboldIt.otf.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bitsandpieces/font/SourceSansPro-SemiboldIt.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/bitsandpieces/font/SourceSansPro-SemiboldIt.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bitsandpieces/font/SourceSansPro-license.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/bitsandpieces/font/SourceSansPro-license.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bitsandpieces/images" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bitsandpieces/index.twig" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/bitsandpieces/index.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bitsandpieces/pinned-tab-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/bitsandpieces/pinned-tab-icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bitsandpieces/scripts/clipboard.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/bitsandpieces/scripts/clipboard.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bitsandpieces/scripts/highlight.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/bitsandpieces/scripts/highlight.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bitsandpieces/scripts/mousetrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/bitsandpieces/scripts/mousetrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bitsandpieces/styles/highlightjs-github.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/bitsandpieces/styles/highlightjs-github.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bitsandpieces/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/bitsandpieces/styles/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/clean-blog/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/clean-blog/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/clean-blog/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/clean-blog/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/clean-blog/css/clean-blog.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/clean-blog/css/clean-blog.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/clean-blog/css/clean-blog.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/clean-blog/css/clean-blog.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/clean-blog/fonts/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/clean-blog/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/clean-blog/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/fonts/bootstrap/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/clean-blog/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/clean-blog/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/clean-blog/fonts/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/clean-blog/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/clean-blog/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/clean-blog/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/clean-blog/img/home-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/clean-blog/img/home-bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/clean-blog/img/post-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/clean-blog/img/post-bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/clean-blog/index.twig" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/clean-blog/index.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/clean-blog/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/clean-blog/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/clean-blog/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/clean-blog/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/clean-blog/js/clean-blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/clean-blog/js/clean-blog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/clean-blog/js/clean-blog.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/clean-blog/js/clean-blog.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/clean-blog/js/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/clean-blog/js/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/clean-blog/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/clean-blog/js/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/clean-blog/less/clean-blog.less" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/clean-blog/less/clean-blog.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/clean-blog/less/mixins.less" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/clean-blog/less/mixins.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/clean-blog/less/variables.less" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/clean-blog/less/variables.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/clean-blog/post.twig" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/clean-blog/post.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/dimension/assets/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/ethereal/assets/css/font-awesome.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/dimension/assets/css/ie9.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/dimension/assets/css/ie9.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/dimension/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/dimension/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/dimension/assets/css/noscript.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/dimension/assets/css/noscript.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/dimension/assets/fonts/FontAwesome.otf" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/dimension/assets/fonts/FontAwesome.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/dimension/assets/fonts/fontawesome-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/dimension/assets/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/dimension/assets/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/ethereal/assets/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/dimension/assets/fonts/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/dimension/assets/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/dimension/assets/fonts/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/dimension/assets/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/dimension/assets/fonts/fontawesome-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/dimension/assets/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/dimension/assets/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/ethereal/assets/js/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/dimension/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/dimension/assets/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/dimension/assets/js/main.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/dimension/assets/js/main.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/dimension/assets/js/skel.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/ethereal/assets/js/skel.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/dimension/assets/js/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/dimension/assets/js/util.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/dimension/assets/js/util.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/dimension/assets/js/util.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/dimension/assets/sass/base/_page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/dimension/assets/sass/base/_page.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/dimension/assets/sass/base/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/dimension/assets/sass/base/_typography.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/dimension/assets/sass/components/_box.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/dimension/assets/sass/components/_box.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/dimension/assets/sass/components/_button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/dimension/assets/sass/components/_button.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/dimension/assets/sass/components/_form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/dimension/assets/sass/components/_form.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/dimension/assets/sass/components/_icon.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/dimension/assets/sass/components/_icon.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/dimension/assets/sass/components/_image.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/dimension/assets/sass/components/_image.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/dimension/assets/sass/components/_list.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/dimension/assets/sass/components/_list.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/dimension/assets/sass/components/_table.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/dimension/assets/sass/components/_table.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/dimension/assets/sass/ie9.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/dimension/assets/sass/ie9.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/dimension/assets/sass/layout/_bg.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/dimension/assets/sass/layout/_bg.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/dimension/assets/sass/layout/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/dimension/assets/sass/layout/_footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/dimension/assets/sass/layout/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/dimension/assets/sass/layout/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/dimension/assets/sass/layout/_main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/dimension/assets/sass/layout/_main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/dimension/assets/sass/layout/_wrapper.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/dimension/assets/sass/layout/_wrapper.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/dimension/assets/sass/libs/_functions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/dimension/assets/sass/libs/_functions.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/dimension/assets/sass/libs/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/dimension/assets/sass/libs/_mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/dimension/assets/sass/libs/_skel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/dimension/assets/sass/libs/_skel.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/dimension/assets/sass/libs/_vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/dimension/assets/sass/libs/_vars.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/dimension/assets/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/dimension/assets/sass/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/dimension/assets/sass/noscript.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/dimension/assets/sass/noscript.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/dimension/images/bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/dimension/images/bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/dimension/images/overlay.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/dimension/images/overlay.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/dimension/index.twig" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/dimension/index.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/dimension/single.twig" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/dimension/single.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/ethereal/assets/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/dimension/assets/css/font-awesome.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/ethereal/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/ethereal/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/ethereal/assets/fonts/FontAwesome.otf" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/ethereal/assets/fonts/FontAwesome.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/ethereal/assets/fonts/fontawesome-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/ethereal/assets/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/ethereal/assets/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/dimension/assets/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/ethereal/assets/fonts/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/ethereal/assets/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/ethereal/assets/fonts/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/ethereal/assets/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/ethereal/assets/fonts/fontawesome-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/ethereal/assets/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/ethereal/assets/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/dimension/assets/js/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/ethereal/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/ethereal/assets/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/ethereal/assets/js/skel.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/dimension/assets/js/skel.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/ethereal/images/bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/ethereal/images/bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/ethereal/images/overlay.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/ethereal/images/overlay.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/ethereal/images/pic01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/ethereal/images/pic01.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/ethereal/index.twig" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/ethereal/index.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/identity/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/identity/LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/identity/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/identity/README.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/identity/assets/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/identity/assets/css/font-awesome.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/identity/assets/css/ie8.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/identity/assets/css/ie8.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/identity/assets/css/ie9.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/identity/assets/css/ie9.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/identity/assets/css/images/overlay.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/identity/assets/css/images/overlay.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/identity/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/identity/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/identity/assets/css/noscript.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/identity/assets/css/noscript.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/identity/assets/fonts/FontAwesome.otf" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/identity/assets/fonts/FontAwesome.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/identity/assets/fonts/fontawesome-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/identity/assets/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/identity/assets/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/identity/assets/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/identity/assets/fonts/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/identity/assets/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/identity/assets/fonts/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/identity/assets/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/identity/assets/fonts/fontawesome-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/identity/assets/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/identity/assets/js/PIE.htc" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/identity/assets/js/PIE.htc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/identity/assets/js/html5shiv.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/identity/assets/js/html5shiv.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/identity/assets/js/respond.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/identity/assets/js/respond.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/identity/assets/sass/base/_page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/identity/assets/sass/base/_page.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/identity/assets/sass/base/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/identity/assets/sass/base/_typography.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/identity/assets/sass/components/_button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/identity/assets/sass/components/_button.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/identity/assets/sass/components/_form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/identity/assets/sass/components/_form.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/identity/assets/sass/components/_icon.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/identity/assets/sass/components/_icon.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/identity/assets/sass/components/_list.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/identity/assets/sass/components/_list.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/identity/assets/sass/ie8.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/identity/assets/sass/ie8.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/identity/assets/sass/ie9.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/identity/assets/sass/ie9.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/identity/assets/sass/layout/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/identity/assets/sass/layout/_footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/identity/assets/sass/layout/_main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/identity/assets/sass/layout/_main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/identity/assets/sass/layout/_wrapper.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/identity/assets/sass/layout/_wrapper.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/identity/assets/sass/libs/_functions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/identity/assets/sass/libs/_functions.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/identity/assets/sass/libs/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/identity/assets/sass/libs/_mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/identity/assets/sass/libs/_skel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/identity/assets/sass/libs/_skel.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/identity/assets/sass/libs/_vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/identity/assets/sass/libs/_vars.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/identity/assets/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/identity/assets/sass/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/identity/assets/sass/noscript.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/identity/assets/sass/noscript.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/identity/images/avatar.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/identity/images/avatar.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/identity/images/bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/identity/images/bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/identity/index.twig" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/identity/index.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/css/animate.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/css/animate.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/css/bootstrap.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/css/flexslider.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/css/flexslider.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/css/icomoon.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/css/icomoon.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/css/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/fonts/icomoon/icomoon.eot" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/fonts/icomoon/icomoon.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/fonts/icomoon/icomoon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/fonts/icomoon/icomoon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/fonts/icomoon/icomoon.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/fonts/icomoon/icomoon.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/fonts/icomoon/icomoon.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/fonts/icomoon/icomoon.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/images/loader.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/images/loader.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/images/person1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/images/person1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/images/pic_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/images/pic_1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/images/single_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/images/single_1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/index.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/js/jquery.easing.1.3.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/js/jquery.easing.1.3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/js/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/js/jquery.waypoints.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/js/jquery.waypoints.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/js/modernizr-2.6.2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/js/modernizr-2.6.2.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/js/respond.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/js/respond.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/sass/_bootstrap-compass.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/sass/_bootstrap-compass.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/sass/_bootstrap-mincer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/sass/_bootstrap-mincer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/sass/_bootstrap-sprockets.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/sass/_bootstrap-sprockets.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/sass/bootstrap.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/sass/bootstrap.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/sass/bootstrap/_alerts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/sass/bootstrap/_alerts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/sass/bootstrap/_badges.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/sass/bootstrap/_badges.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/sass/bootstrap/_breadcrumbs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/sass/bootstrap/_breadcrumbs.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/sass/bootstrap/_button-groups.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/sass/bootstrap/_button-groups.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/sass/bootstrap/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/sass/bootstrap/_buttons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/sass/bootstrap/_carousel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/sass/bootstrap/_carousel.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/sass/bootstrap/_close.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/sass/bootstrap/_close.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/sass/bootstrap/_code.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/sass/bootstrap/_code.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/sass/bootstrap/_component-animations.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/sass/bootstrap/_component-animations.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/sass/bootstrap/_dropdowns.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/sass/bootstrap/_dropdowns.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/sass/bootstrap/_forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/sass/bootstrap/_forms.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/sass/bootstrap/_glyphicons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/sass/bootstrap/_glyphicons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/sass/bootstrap/_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/sass/bootstrap/_grid.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/sass/bootstrap/_input-groups.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/sass/bootstrap/_input-groups.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/sass/bootstrap/_jumbotron.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/sass/bootstrap/_jumbotron.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/sass/bootstrap/_labels.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/sass/bootstrap/_labels.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/sass/bootstrap/_list-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/sass/bootstrap/_list-group.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/sass/bootstrap/_media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/sass/bootstrap/_media.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/sass/bootstrap/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/sass/bootstrap/_mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/sass/bootstrap/_modals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/sass/bootstrap/_modals.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/sass/bootstrap/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/sass/bootstrap/_navbar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/sass/bootstrap/_navs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/sass/bootstrap/_navs.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/sass/bootstrap/_normalize.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/sass/bootstrap/_normalize.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/sass/bootstrap/_pager.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/sass/bootstrap/_pager.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/sass/bootstrap/_pagination.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/sass/bootstrap/_pagination.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/sass/bootstrap/_panels.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/sass/bootstrap/_panels.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/sass/bootstrap/_popovers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/sass/bootstrap/_popovers.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/sass/bootstrap/_print.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/sass/bootstrap/_print.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/sass/bootstrap/_progress-bars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/sass/bootstrap/_progress-bars.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/sass/bootstrap/_responsive-embed.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/sass/bootstrap/_responsive-embed.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/sass/bootstrap/_responsive-utilities.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/sass/bootstrap/_responsive-utilities.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/sass/bootstrap/_scaffolding.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/sass/bootstrap/_scaffolding.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/sass/bootstrap/_tables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/sass/bootstrap/_tables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/sass/bootstrap/_theme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/sass/bootstrap/_theme.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/sass/bootstrap/_thumbnails.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/sass/bootstrap/_thumbnails.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/sass/bootstrap/_tooltip.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/sass/bootstrap/_tooltip.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/sass/bootstrap/_type.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/sass/bootstrap/_type.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/sass/bootstrap/_utilities.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/sass/bootstrap/_utilities.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/sass/bootstrap/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/sass/bootstrap/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/sass/bootstrap/_wells.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/sass/bootstrap/_wells.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/sass/bootstrap/mixins/_alerts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/sass/bootstrap/mixins/_alerts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/sass/bootstrap/mixins/_background-variant.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/sass/bootstrap/mixins/_background-variant.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/sass/bootstrap/mixins/_border-radius.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/sass/bootstrap/mixins/_border-radius.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/sass/bootstrap/mixins/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/sass/bootstrap/mixins/_buttons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/sass/bootstrap/mixins/_center-block.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/sass/bootstrap/mixins/_center-block.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/sass/bootstrap/mixins/_clearfix.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/sass/bootstrap/mixins/_clearfix.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/sass/bootstrap/mixins/_forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/sass/bootstrap/mixins/_forms.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/sass/bootstrap/mixins/_gradients.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/sass/bootstrap/mixins/_gradients.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/sass/bootstrap/mixins/_grid-framework.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/sass/bootstrap/mixins/_grid-framework.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/sass/bootstrap/mixins/_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/sass/bootstrap/mixins/_grid.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/sass/bootstrap/mixins/_hide-text.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/sass/bootstrap/mixins/_hide-text.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/sass/bootstrap/mixins/_image.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/sass/bootstrap/mixins/_image.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/sass/bootstrap/mixins/_labels.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/sass/bootstrap/mixins/_labels.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/sass/bootstrap/mixins/_list-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/sass/bootstrap/mixins/_list-group.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/sass/bootstrap/mixins/_nav-divider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/sass/bootstrap/mixins/_nav-divider.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/sass/bootstrap/mixins/_nav-vertical-align.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/sass/bootstrap/mixins/_nav-vertical-align.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/sass/bootstrap/mixins/_opacity.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/sass/bootstrap/mixins/_opacity.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/sass/bootstrap/mixins/_pagination.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/sass/bootstrap/mixins/_pagination.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/sass/bootstrap/mixins/_panels.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/sass/bootstrap/mixins/_panels.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/sass/bootstrap/mixins/_progress-bar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/sass/bootstrap/mixins/_progress-bar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/sass/bootstrap/mixins/_reset-filter.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/sass/bootstrap/mixins/_reset-filter.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/sass/bootstrap/mixins/_reset-text.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/sass/bootstrap/mixins/_reset-text.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/sass/bootstrap/mixins/_resize.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/sass/bootstrap/mixins/_resize.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/sass/bootstrap/mixins/_responsive-visibility.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/sass/bootstrap/mixins/_responsive-visibility.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/sass/bootstrap/mixins/_size.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/sass/bootstrap/mixins/_size.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/sass/bootstrap/mixins/_tab-focus.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/sass/bootstrap/mixins/_tab-focus.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/sass/bootstrap/mixins/_table-row.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/sass/bootstrap/mixins/_table-row.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/sass/bootstrap/mixins/_text-emphasis.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/sass/bootstrap/mixins/_text-emphasis.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/sass/bootstrap/mixins/_text-overflow.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/sass/bootstrap/mixins/_text-overflow.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/sass/bootstrap/mixins/_vendor-prefixes.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/sass/bootstrap/mixins/_vendor-prefixes.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/sass/style.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/search.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/magazine/single.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/pikion/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/pikion/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/pikion/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/pikion/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/pikion/_body.twig" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/pikion/_body.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/pikion/_footer.twig" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/pikion/_footer.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/pikion/_header.twig" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/pikion/_header.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/pikion/assets/css/highlight-default.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/pikion/assets/css/highlight-default.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/pikion/assets/css/somecode.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/pikion/assets/css/somecode.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/pikion/assets/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/pikion/assets/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/pikion/assets/js/highlight.pack.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/pikion/assets/js/highlight.pack.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/pikion/assets/js/mark.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/pikion/assets/js/mark.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/pikion/assets/js/tex-mml-chtml.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/pikion/assets/js/tex-mml-chtml.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/pikion/assets/js/vanilla.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/pikion/assets/js/vanilla.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/pikion/columns.twig" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/pikion/columns.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/pikion/images/backgrounds.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/pikion/images/backgrounds.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/pikion/images/columns.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/pikion/images/columns.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/pikion/images/dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/pikion/images/dark.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/pikion/images/header.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/pikion/images/header.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/pikion/images/light.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/pikion/images/light.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/pikion/images/search.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/pikion/images/search.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/pikion/images/search_highlight1.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/pikion/images/search_highlight1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/pikion/images/search_highlight2.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/pikion/images/search_highlight2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/pikion/index.twig" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/pikion/index.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/pikion/preview.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/pikion/preview.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/pikion/preview_dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/pikion/preview_dark.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/pikion/search.twig" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/pikion/search.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/pikion/sidebar.twig" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/pikion/sidebar.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/css/animate.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/css/animate.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/css/bootstrap.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/css/icomoon.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/css/icomoon.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/fonts/bootstrap/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/fonts/bootstrap/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/fonts/bootstrap/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/fonts/bootstrap/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/fonts/bootstrap/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/fonts/bootstrap/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/fonts/bootstrap/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/fonts/bootstrap/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/fonts/bootstrap/glyphicons-halflings-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/fonts/bootstrap/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/fonts/icomoon/icomoon.eot" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/fonts/icomoon/icomoon.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/fonts/icomoon/icomoon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/fonts/icomoon/icomoon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/fonts/icomoon/icomoon.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/fonts/icomoon/icomoon.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/fonts/icomoon/icomoon.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/fonts/icomoon/icomoon.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/images/hero.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/images/hero.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/index.twig" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/index.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/js/jquery.easing.1.3.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/js/jquery.easing.1.3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/js/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/js/jquery.waypoints.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/js/jquery.waypoints.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/js/modernizr-2.6.2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/js/modernizr-2.6.2.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/js/respond.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/js/respond.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/sass/_bootstrap-compass.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/sass/_bootstrap-compass.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/sass/_bootstrap-mincer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/sass/_bootstrap-mincer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/sass/_bootstrap-sprockets.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/sass/_bootstrap-sprockets.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/sass/bootstrap.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/sass/bootstrap.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/sass/bootstrap/_alerts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/sass/bootstrap/_alerts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/sass/bootstrap/_badges.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/sass/bootstrap/_badges.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/sass/bootstrap/_breadcrumbs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/sass/bootstrap/_breadcrumbs.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/sass/bootstrap/_button-groups.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/sass/bootstrap/_button-groups.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/sass/bootstrap/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/sass/bootstrap/_buttons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/sass/bootstrap/_carousel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/sass/bootstrap/_carousel.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/sass/bootstrap/_close.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/sass/bootstrap/_close.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/sass/bootstrap/_code.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/sass/bootstrap/_code.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/sass/bootstrap/_component-animations.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/sass/bootstrap/_component-animations.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/sass/bootstrap/_dropdowns.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/sass/bootstrap/_dropdowns.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/sass/bootstrap/_forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/sass/bootstrap/_forms.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/sass/bootstrap/_glyphicons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/sass/bootstrap/_glyphicons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/sass/bootstrap/_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/sass/bootstrap/_grid.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/sass/bootstrap/_input-groups.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/sass/bootstrap/_input-groups.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/sass/bootstrap/_jumbotron.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/sass/bootstrap/_jumbotron.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/sass/bootstrap/_labels.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/sass/bootstrap/_labels.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/sass/bootstrap/_list-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/sass/bootstrap/_list-group.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/sass/bootstrap/_media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/sass/bootstrap/_media.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/sass/bootstrap/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/sass/bootstrap/_mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/sass/bootstrap/_modals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/sass/bootstrap/_modals.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/sass/bootstrap/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/sass/bootstrap/_navbar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/sass/bootstrap/_navs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/sass/bootstrap/_navs.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/sass/bootstrap/_normalize.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/sass/bootstrap/_normalize.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/sass/bootstrap/_pager.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/sass/bootstrap/_pager.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/sass/bootstrap/_pagination.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/sass/bootstrap/_pagination.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/sass/bootstrap/_panels.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/sass/bootstrap/_panels.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/sass/bootstrap/_popovers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/sass/bootstrap/_popovers.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/sass/bootstrap/_print.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/sass/bootstrap/_print.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/sass/bootstrap/_progress-bars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/sass/bootstrap/_progress-bars.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/sass/bootstrap/_responsive-embed.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/sass/bootstrap/_responsive-embed.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/sass/bootstrap/_responsive-utilities.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/sass/bootstrap/_responsive-utilities.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/sass/bootstrap/_scaffolding.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/sass/bootstrap/_scaffolding.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/sass/bootstrap/_tables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/sass/bootstrap/_tables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/sass/bootstrap/_theme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/sass/bootstrap/_theme.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/sass/bootstrap/_thumbnails.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/sass/bootstrap/_thumbnails.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/sass/bootstrap/_tooltip.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/sass/bootstrap/_tooltip.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/sass/bootstrap/_type.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/sass/bootstrap/_type.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/sass/bootstrap/_utilities.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/sass/bootstrap/_utilities.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/sass/bootstrap/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/sass/bootstrap/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/sass/bootstrap/_wells.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/sass/bootstrap/_wells.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/sass/bootstrap/mixins/_alerts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/sass/bootstrap/mixins/_alerts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/sass/bootstrap/mixins/_background-variant.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/sass/bootstrap/mixins/_background-variant.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/sass/bootstrap/mixins/_border-radius.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/sass/bootstrap/mixins/_border-radius.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/sass/bootstrap/mixins/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/sass/bootstrap/mixins/_buttons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/sass/bootstrap/mixins/_center-block.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/sass/bootstrap/mixins/_center-block.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/sass/bootstrap/mixins/_clearfix.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/sass/bootstrap/mixins/_clearfix.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/sass/bootstrap/mixins/_forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/sass/bootstrap/mixins/_forms.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/sass/bootstrap/mixins/_gradients.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/sass/bootstrap/mixins/_gradients.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/sass/bootstrap/mixins/_grid-framework.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/sass/bootstrap/mixins/_grid-framework.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/sass/bootstrap/mixins/_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/sass/bootstrap/mixins/_grid.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/sass/bootstrap/mixins/_hide-text.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/sass/bootstrap/mixins/_hide-text.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/sass/bootstrap/mixins/_image.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/sass/bootstrap/mixins/_image.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/sass/bootstrap/mixins/_labels.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/sass/bootstrap/mixins/_labels.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/sass/bootstrap/mixins/_list-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/sass/bootstrap/mixins/_list-group.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/sass/bootstrap/mixins/_nav-divider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/sass/bootstrap/mixins/_nav-divider.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/sass/bootstrap/mixins/_nav-vertical-align.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/sass/bootstrap/mixins/_nav-vertical-align.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/sass/bootstrap/mixins/_opacity.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/sass/bootstrap/mixins/_opacity.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/sass/bootstrap/mixins/_pagination.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/sass/bootstrap/mixins/_pagination.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/sass/bootstrap/mixins/_panels.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/sass/bootstrap/mixins/_panels.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/sass/bootstrap/mixins/_progress-bar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/sass/bootstrap/mixins/_progress-bar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/sass/bootstrap/mixins/_reset-filter.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/sass/bootstrap/mixins/_reset-filter.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/sass/bootstrap/mixins/_reset-text.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/sass/bootstrap/mixins/_reset-text.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/sass/bootstrap/mixins/_resize.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/sass/bootstrap/mixins/_resize.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/sass/bootstrap/mixins/_responsive-visibility.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/sass/bootstrap/mixins/_responsive-visibility.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/sass/bootstrap/mixins/_size.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/sass/bootstrap/mixins/_size.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/sass/bootstrap/mixins/_tab-focus.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/sass/bootstrap/mixins/_tab-focus.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/sass/bootstrap/mixins/_table-row.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/sass/bootstrap/mixins/_table-row.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/sass/bootstrap/mixins/_text-emphasis.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/sass/bootstrap/mixins/_text-emphasis.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/sass/bootstrap/mixins/_text-overflow.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/sass/bootstrap/mixins/_text-overflow.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/sass/bootstrap/mixins/_vendor-prefixes.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/sass/bootstrap/mixins/_vendor-prefixes.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/single/sass/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/single/sass/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/skelepico/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/skelepico/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/skelepico/base.twig" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/skelepico/base.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/skelepico/blog.twig" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/skelepico/blog.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/skelepico/columns.twig" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/skelepico/columns.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/skelepico/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/skelepico/css/custom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/skelepico/css/skeleton.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/skelepico/css/skeleton.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/skelepico/img/cardboard-box.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/skelepico/img/cardboard-box.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/skelepico/img/paul-gallipeau.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/skelepico/img/paul-gallipeau.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/skelepico/img/ui/hamburger-navigation-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/skelepico/img/ui/hamburger-navigation-icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/skelepico/img/ui/paul-carl-digital-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/skelepico/img/ui/paul-carl-digital-logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/skelepico/img/ui/skelepico-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/skelepico/img/ui/skelepico-logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/skelepico/index.twig" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/skelepico/index.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/skelepico/page.twig" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/skelepico/page.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/skelepico/post.twig" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/skelepico/post.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/skelepico/sidebar.twig" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/skelepico/sidebar.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/somecode/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/somecode/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/somecode/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/somecode/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/somecode/_footer.twig" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/somecode/_footer.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/somecode/_header.twig" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/somecode/_header.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/somecode/assets/css/highlight-default.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/somecode/assets/css/highlight-default.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/somecode/assets/css/somecode.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/somecode/assets/css/somecode.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/somecode/assets/js/highlight.pack.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/somecode/assets/js/highlight.pack.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/somecode/assets/js/vanilla.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/somecode/assets/js/vanilla.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/somecode/example.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/somecode/example.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/somecode/index.twig" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/somecode/index.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/somecode/preview.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/somecode/preview.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/css/animate.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/css/animate.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/css/bootstrap.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/css/icomoon.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/css/icomoon.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/fonts/bootstrap/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/fonts/bootstrap/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/fonts/bootstrap/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/clean-blog/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/fonts/bootstrap/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/fonts/bootstrap/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/fonts/bootstrap/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/fonts/bootstrap/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/fonts/bootstrap/glyphicons-halflings-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/fonts/bootstrap/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/fonts/icomoon/icomoon.eot" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/fonts/icomoon/icomoon.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/fonts/icomoon/icomoon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/fonts/icomoon/icomoon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/fonts/icomoon/icomoon.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/fonts/icomoon/icomoon.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/fonts/icomoon/icomoon.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/fonts/icomoon/icomoon.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/images/loader.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/images/loader.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/index.twig" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/index.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/magazine/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/js/jquery.easing.1.3.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/js/jquery.easing.1.3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/js/jquery.stellar.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/js/jquery.stellar.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/js/jquery.waypoints.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/js/jquery.waypoints.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/js/modernizr-2.6.2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/js/modernizr-2.6.2.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/js/respond.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/js/respond.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/sass/_bootstrap-mincer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/sass/_bootstrap-mincer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/sass/_bootstrap-sprockets.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/sass/_bootstrap-sprockets.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/sass/bootstrap.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/sass/bootstrap.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/sass/bootstrap/_alerts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/sass/bootstrap/_alerts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/sass/bootstrap/_badges.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/sass/bootstrap/_badges.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/sass/bootstrap/_breadcrumbs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/sass/bootstrap/_breadcrumbs.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/sass/bootstrap/_button-groups.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/sass/bootstrap/_button-groups.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/sass/bootstrap/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/sass/bootstrap/_buttons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/sass/bootstrap/_carousel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/sass/bootstrap/_carousel.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/sass/bootstrap/_close.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/sass/bootstrap/_close.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/sass/bootstrap/_code.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/sass/bootstrap/_code.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/sass/bootstrap/_component-animations.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/sass/bootstrap/_component-animations.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/sass/bootstrap/_dropdowns.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/sass/bootstrap/_dropdowns.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/sass/bootstrap/_forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/sass/bootstrap/_forms.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/sass/bootstrap/_glyphicons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/sass/bootstrap/_glyphicons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/sass/bootstrap/_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/sass/bootstrap/_grid.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/sass/bootstrap/_input-groups.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/sass/bootstrap/_input-groups.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/sass/bootstrap/_jumbotron.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/sass/bootstrap/_jumbotron.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/sass/bootstrap/_labels.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/sass/bootstrap/_labels.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/sass/bootstrap/_list-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/sass/bootstrap/_list-group.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/sass/bootstrap/_media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/sass/bootstrap/_media.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/sass/bootstrap/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/sass/bootstrap/_mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/sass/bootstrap/_modals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/sass/bootstrap/_modals.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/sass/bootstrap/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/sass/bootstrap/_navbar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/sass/bootstrap/_navs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/sass/bootstrap/_navs.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/sass/bootstrap/_normalize.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/sass/bootstrap/_normalize.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/sass/bootstrap/_pager.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/sass/bootstrap/_pager.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/sass/bootstrap/_pagination.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/sass/bootstrap/_pagination.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/sass/bootstrap/_panels.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/sass/bootstrap/_panels.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/sass/bootstrap/_popovers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/sass/bootstrap/_popovers.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/sass/bootstrap/_print.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/sass/bootstrap/_print.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/sass/bootstrap/_progress-bars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/sass/bootstrap/_progress-bars.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/sass/bootstrap/_responsive-embed.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/sass/bootstrap/_responsive-embed.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/sass/bootstrap/_responsive-utilities.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/sass/bootstrap/_responsive-utilities.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/sass/bootstrap/_scaffolding.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/sass/bootstrap/_scaffolding.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/sass/bootstrap/_tables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/sass/bootstrap/_tables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/sass/bootstrap/_theme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/sass/bootstrap/_theme.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/sass/bootstrap/_thumbnails.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/sass/bootstrap/_thumbnails.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/sass/bootstrap/_tooltip.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/sass/bootstrap/_tooltip.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/sass/bootstrap/_type.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/sass/bootstrap/_type.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/sass/bootstrap/_utilities.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/sass/bootstrap/_utilities.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/sass/bootstrap/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/sass/bootstrap/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/sass/bootstrap/_wells.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/sass/bootstrap/_wells.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/sass/bootstrap/mixins/_alerts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/sass/bootstrap/mixins/_alerts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/sass/bootstrap/mixins/_background-variant.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/sass/bootstrap/mixins/_background-variant.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/sass/bootstrap/mixins/_border-radius.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/sass/bootstrap/mixins/_border-radius.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/sass/bootstrap/mixins/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/sass/bootstrap/mixins/_buttons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/sass/bootstrap/mixins/_center-block.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/sass/bootstrap/mixins/_center-block.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/sass/bootstrap/mixins/_clearfix.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/sass/bootstrap/mixins/_clearfix.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/sass/bootstrap/mixins/_forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/sass/bootstrap/mixins/_forms.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/sass/bootstrap/mixins/_gradients.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/sass/bootstrap/mixins/_gradients.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/sass/bootstrap/mixins/_grid-framework.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/sass/bootstrap/mixins/_grid-framework.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/sass/bootstrap/mixins/_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/sass/bootstrap/mixins/_grid.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/sass/bootstrap/mixins/_hide-text.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/sass/bootstrap/mixins/_hide-text.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/sass/bootstrap/mixins/_image.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/sass/bootstrap/mixins/_image.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/sass/bootstrap/mixins/_labels.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/sass/bootstrap/mixins/_labels.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/sass/bootstrap/mixins/_list-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/sass/bootstrap/mixins/_list-group.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/sass/bootstrap/mixins/_nav-divider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/sass/bootstrap/mixins/_nav-divider.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/sass/bootstrap/mixins/_nav-vertical-align.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/sass/bootstrap/mixins/_nav-vertical-align.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/sass/bootstrap/mixins/_opacity.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/sass/bootstrap/mixins/_opacity.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/sass/bootstrap/mixins/_pagination.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/sass/bootstrap/mixins/_pagination.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/sass/bootstrap/mixins/_panels.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/sass/bootstrap/mixins/_panels.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/sass/bootstrap/mixins/_progress-bar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/sass/bootstrap/mixins/_progress-bar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/sass/bootstrap/mixins/_reset-filter.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/sass/bootstrap/mixins/_reset-filter.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/sass/bootstrap/mixins/_reset-text.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/sass/bootstrap/mixins/_reset-text.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/sass/bootstrap/mixins/_resize.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/sass/bootstrap/mixins/_resize.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/sass/bootstrap/mixins/_responsive-visibility.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/sass/bootstrap/mixins/_responsive-visibility.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/sass/bootstrap/mixins/_size.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/sass/bootstrap/mixins/_size.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/sass/bootstrap/mixins/_tab-focus.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/sass/bootstrap/mixins/_tab-focus.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/sass/bootstrap/mixins/_table-row.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/sass/bootstrap/mixins/_table-row.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/sass/bootstrap/mixins/_text-emphasis.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/sass/bootstrap/mixins/_text-emphasis.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/sass/bootstrap/mixins/_text-overflow.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/sass/bootstrap/mixins/_text-overflow.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/sass/bootstrap/mixins/_vendor-prefixes.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/sass/bootstrap/mixins/_vendor-prefixes.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/sass/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/sass/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/story/single.twig" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/story/single.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/post.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/Dummy1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/search.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -698,8 +101,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/content" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -710,12 +114,24 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/themes/magazine" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/content" />
+      <recent name="$PROJECT_DIR$/public/themes" />
+    </key>
+  </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="git tag" />
     </option>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="8e132b9a-f03e-40b9-81d3-39628ec70ad1" name="Default Changelist" comment="" />
@@ -729,6 +145,7 @@
       <workItem from="1600775438725" duration="617000" />
       <workItem from="1600841845088" duration="5925000" />
       <workItem from="1602789705798" duration="719000" />
+      <workItem from="1602824547381" duration="5850000" />
     </task>
     <task id="LOCAL-00001" summary="updated variables">
       <created>1600847105825</created>
@@ -741,7 +158,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="updated variables" />
@@ -796,9 +213,10 @@
       <screen x="0" y="0" width="3840" height="1080" />
     </state>
     <state x="619" y="247" key="run.anything.popup/903.1080.1920.1080/0.0.3840.1080@0.0.3840.1080" timestamp="1600847152298" />
-    <state x="618" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1600847149061">
-      <screen x="0" y="0" width="3840" height="1080" />
+    <state x="678" y="260" width="672" height="662" key="search.everywhere.popup" timestamp="1602829512385">
+      <screen x="72" y="27" width="3768" height="1053" />
     </state>
+    <state x="678" y="260" width="672" height="662" key="search.everywhere.popup/72.27.3768.1053@72.27.3768.1053" timestamp="1602829512384" />
     <state x="618" y="239" width="672" height="678" key="search.everywhere.popup/903.1080.1920.1080/0.0.3840.1080@0.0.3840.1080" timestamp="1600847149061" />
     <state x="680" y="452" width="540" height="174" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1600695044987">
       <screen x="0" y="0" width="3840" height="1080" />
