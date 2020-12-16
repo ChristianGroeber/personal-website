@@ -1,4 +1,0 @@
----
-Template: subindex
-Title: Projects
----
