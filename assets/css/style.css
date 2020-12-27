@@ -31,8 +31,12 @@ p.name {
 .app-collection-wrapper {
   height: 100vh;
   width: 100vw;
-  display: flex;
+  display: none;
   justify-content: center;
+}
+
+.app-collection-wrapper:target {
+  display: flex !important;
 }
 
 .app-collection {
@@ -45,6 +49,10 @@ p.name {
   flex-wrap: wrap;
   overflow-y: auto;
   padding: 5px;
+}
+
+.app-collection .application {
+    width: 33%;
 }
 
 .application {

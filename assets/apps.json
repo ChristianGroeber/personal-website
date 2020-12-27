@@ -3,12 +3,29 @@
         "name": "Knowlege Base",
         "desc": "",
         "href": "https://wiki.christian-groeber.ch",
+        "type": "app",
         "thumb": "/assets/images/knowledge base.png"
     },
     {
         "name": "How To Photography",
         "desc": "",
         "href": "http://howtophotography.christian-groeber.ch",
+        "type": "app",
         "thumb": "/assets/images/howtophotography.png"
+    },
+    {
+        "name": "Links",
+        "desc": "",
+        "id": "links",
+        "thumb": "/assets/images/links.png",
+        "type": "folder",
+        "apps": [
+            {
+                "name": "Github",
+                "desc": "",
+                "href": "https://github.com/christiangroeber",
+                "thumb": "/assets/images/github.png"
+            }
+        ]
     }
 ]

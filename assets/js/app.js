@@ -2,9 +2,48 @@ fetch("/assets/apps.json")
     .then(response => response.json())
     .then(function (data) {
         data.forEach(function (app) {
-            let appStr = "<a class='application' href='" + app.href + "' target='_blank'>" +
-                "<div><img src='" + app.thumb + "'>" +
-                "</div><p class='name'>" + app.name + "</p></a>";
-            document.getElementById('homescreen').innerHTML += appStr;
+            if (app.type === undefined) {
+                app.type = 'app';
+            }
+            printApp(app, document.getElementById('homescreen'));
+            if (app.type === 'folder') {
+                printFolder(app);
+            }
         })
     });
+
+
+let viewingFolder = null;
+
+
+function toggleFolder(event) {
+    console.log(event);
+
+    console.log('lel');
+
+}
+
+function printApp(appJson, parentElement) {
+    if (appJson.type === 'folder') {
+        appJson.href = '#' + appJson.id;
+    }
+    let appStr = "<a type='" + appJson.type + "' class='application' href='" + appJson.href + "'";
+    if (appJson.type !== 'folder') {
+        appStr += " target='_blank'";
+    }
+    appStr += "><div><img src='" + appJson.thumb + "'>" +
+        "</div><p class='name'>" + appJson.name + "</p></a>";
+    parentElement.innerHTML += appStr;
+
+    if (appJson.type === 'folder') {
+        document.querySelector("[href='#links']").onclick = toggleFolder;
+    }
+}
+
+function printFolder(folderJson) {
+    let folderStr = "<div class='app-collection-wrapper' id='" + folderJson.id + "'><div class='app-collection'></div></div>";
+    document.getElementById('folders').innerHTML += folderStr;
+    folderJson.apps.forEach(function (app) {
+        printApp(app, document.querySelector('#' + folderJson.id + ' .app-collection'));
+    })
+}
