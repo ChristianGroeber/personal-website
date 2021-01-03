@@ -30,6 +30,9 @@ function toggleFolder(event) {
 }
 
 function closeFolders(event) {
+    if (!event.target.classList.contains('app-collection-wrapper')) {
+        return;
+    }
     event.preventDefault();
     document.querySelectorAll('.app-collection-wrapper.show').forEach(function(ele) {
         ele.classList.remove('show');
