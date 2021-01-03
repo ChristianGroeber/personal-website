@@ -25,6 +25,24 @@
                 "desc": "",
                 "href": "https://github.com/christiangroeber",
                 "thumb": "/assets/images/github.png"
+            },
+            {
+                "name": "Instagram",
+                "desc": "",
+                "href": "https://instagram.com/christian.groeber.98",
+                "thumb": "/assets/images/instagram.png"
+            },
+            {
+                "name": "Linkedin",
+                "desc": "",
+                "href": "https://www.linkedin.com/in/christian-groeber/",
+                "thumb": "/assets/images/linkedin.png"
+            },
+            {
+                "name": "Twitter",
+                "desc": "",
+                "href": "https://twitter.com/christiangr1998",
+                "thumb": "/assets/images/twitter.jpeg"
             }
         ]
     }
