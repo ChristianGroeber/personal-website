@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Christian Gröber</title>
     <link rel="stylesheet" href="/assets/css/style.css" />
   </head>
 
@@ -13,7 +13,7 @@
     </div>
     <div id="folders"></div>
     <div class="bottom-bar app-list">
-      <a href="#" class="application">
+      <a href="#" class="application" onclick="requestPage('/pages/contact.html', 'Contact')">
         <div>
           <img
             src="https://safetyaustraliagroup.com.au/wp-content/uploads/2019/05/image-not-found.png"
@@ -50,6 +50,8 @@
         </div>
       </a>
     </div>
+    <div id="subpage-wrapper"><div id="close-btn" onclick="closePage()"></div><div id="subpage"></div></div>
     <script src="/assets/js/app.js"></script>
+    <script src="/assets/js/contact.js"></script>
   </body>
 </html>

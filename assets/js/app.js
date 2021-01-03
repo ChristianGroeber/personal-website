@@ -66,3 +66,19 @@ function printFolder(folderJson) {
     })
     document.getElementById(folderJson.id).addEventListener('click', closeFolders);
 }
+
+function requestPage(page, title = '') {
+    document.title = title + ' - Christian Gröber';
+    fetch(page)
+        .then(response => response.text())
+        .then(function(data) {
+            const subpage = document.getElementById('subpage');
+            subpage.innerHTML = data;
+            document.getElementById('subpage-wrapper').classList.add('show');
+        });
+}
+
+function closePage() {
+    document.querySelector('#subpage-wrapper.show').classList.remove('show');
+    document.title = 'Christian Gröber';
+}
