@@ -17,10 +17,25 @@ let viewingFolder = null;
 
 
 function toggleFolder(event) {
-    console.log(event);
+    event.preventDefault();
+    const folder = document.querySelector(event.target.closest('a').getAttribute('href'));
+    if (viewingFolder === folder.getAttribute('id')) {
+        folder.classList.remove('show');
+        viewingFolder = null;
+    } else {
+        viewingFolder = folder.getAttribute('id');
+        folder.classList.add('show');
+        document.documentElement.style.overflow = 'hidden';
+    }
+}
 
-    console.log('lel');
-
+function closeFolders(event) {
+    event.preventDefault();
+    document.querySelectorAll('.app-collection-wrapper.show').forEach(function(ele) {
+        ele.classList.remove('show');
+    });
+    viewingFolder = null;
+    document.documentElement.style.overflow = 'auto';
 }
 
 function printApp(appJson, parentElement) {
@@ -36,7 +51,7 @@ function printApp(appJson, parentElement) {
     parentElement.innerHTML += appStr;
 
     if (appJson.type === 'folder') {
-        document.querySelector("[href='#links']").onclick = toggleFolder;
+        document.querySelector("[href='#" + appJson.id + "']").addEventListener('click', toggleFolder);
     }
 }
 
@@ -46,4 +61,5 @@ function printFolder(folderJson) {
     folderJson.apps.forEach(function (app) {
         printApp(app, document.querySelector('#' + folderJson.id + ' .app-collection'));
     })
+    document.getElementById(folderJson.id).addEventListener('click', closeFolders);
 }
