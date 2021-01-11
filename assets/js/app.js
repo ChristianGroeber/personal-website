@@ -45,11 +45,11 @@ function printApp(appJson, parentElement) {
     if (appJson.type === 'folder') {
         appJson.href = '#' + appJson.id;
     }
-    let appStr = "<a type='" + appJson.type + "' class='application' href='" + appJson.href + "'";
+    let appStr = "<a rel='noopener' type='" + appJson.type + "' class='application' href='" + appJson.href + "'";
     if (appJson.type !== 'folder') {
         appStr += " target='_blank'";
     }
-    appStr += "><div><img src='" + appJson.thumb + "'>" +
+    appStr += "><div><img alt='" + appJson.name + "' src='" + appJson.thumb + "'>" +
         "</div><p class='name'>" + appJson.name + "</p></a>";
     parentElement.innerHTML += appStr;
 
