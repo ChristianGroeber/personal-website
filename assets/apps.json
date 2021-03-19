@@ -14,6 +14,27 @@
         "thumb": "/assets/images/howtophotography.png"
     },
     {
+        "name": "Paris Blog",
+        "desc": "",
+        "href": "https://paris.christian-groeber.ch",
+        "type": "app",
+        "thumb": "/assets/images/howtophotography.png"
+    },
+    {
+        "name": "Photography Portfolio",
+        "desc": "",
+        "href": "https://foto.christian-groeber.ch",
+        "type": "app",
+        "thumb": "/assets/images/howtophotography.png"
+    },
+    {
+        "name": "2021",
+        "desc": "",
+        "href": "https://2021.christian-groeber.ch",
+        "type": "app",
+        "thumb": "/assets/images/2021.png"
+    },
+    {
         "name": "Links",
         "desc": "",
         "id": "links",
