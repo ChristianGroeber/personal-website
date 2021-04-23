@@ -1,14 +1,12 @@
 version: "3"
 
 services:
-    pico:
-        build:
-            context: .
-            dockerfile: Dockerfile
+    home:
+        image: christiannxtlvl/php-server:7.4
+        container_name: home
         ports:
             - '84:80'
         environment:
             PICO_URL_REWRITING: 1
         volumes: 
-            - ./public:/var/www/html
-            - ./:/app
+            - ./:/var/www/html
