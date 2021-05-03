@@ -34,7 +34,7 @@ function closeFolders(event) {
         return;
     }
     event.preventDefault();
-    document.querySelectorAll('.app-collection-wrapper.show').forEach(function(ele) {
+    document.querySelectorAll('.app-collection-wrapper.show').forEach(function (ele) {
         ele.classList.remove('show');
     });
     viewingFolder = null;
@@ -69,9 +69,10 @@ function printFolder(folderJson) {
 
 function requestPage(page, title = '') {
     document.title = title + ' - Christian Gröber';
+    history.pushState({ page: 'contact' }, 'Contact', '/contact');
     fetch(page)
         .then(response => response.text())
-        .then(function(data) {
+        .then(function (data) {
             const subpage = document.getElementById('subpage');
             subpage.innerHTML = data;
             document.getElementById('subpage-wrapper').classList.add('show');
@@ -81,4 +82,65 @@ function requestPage(page, title = '') {
 function closePage() {
     document.querySelector('#subpage-wrapper.show').classList.remove('show');
     document.title = 'Christian Gröber';
+    history.pushState({}, 'Home', '/');
+}
+
+function findChild(elem, childName) {
+    childName = childName.toLowerCase();
+    for (let i = 0; i < elem.childNodes.length; i++) {
+        if (elem.childNodes[i].tagName.toLowerCase() === childName) {
+            return elem.childNodes[i];
+        }
+    }
+    for (let i = 0; i < elem.childNodes.length; i++) {
+        let child = findChild(elem.childNodes[i], childName);
+        if (child !== null) {
+            return child;
+        }
+    }
+
+    return null;
+}
+
+function findParent(elem, parentName) {
+    parentName = parentName.toLowerCase();
+    if (elem.parentNode.tagName.toLowerCase() === parentName) {
+        return elem.parentNode;
+    }
+    if (elem.parentNode.tagName === 'BODY') {
+        return false;
+    }
+
+    return findParent(elem.parentNode, parentName);
+}
+
+const tagsToIdentify = ['img', 'a'];
+
+document.body.onclick = function (e) {
+    let link = false;
+    if (e.target.tagName === 'a') {
+        link = e.target;
+    } else {
+        link = findParent(e.target, 'a');
+    }
+
+    
+    if (!link) {
+        return false;
+    }
+
+    return handleLink(link, e);
+};
+
+function handleLink(link, clickEvent) {
+    let linkType = link.getAttribute('type');
+    if (linkType === 'app') {
+        return null;
+    }
+    clickEvent.preventDefault();
+
+    if (linkType === 'internal') {
+        requestPage(link.getAttribute('internal-link'), link.getAttribute('internal-title'));
+    }
+
 }
