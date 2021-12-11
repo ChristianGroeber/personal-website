@@ -73,7 +73,7 @@ function requestPage(request) {
     fetch(request.page)
         .then(response => response.text())
         .then(function (data) {
-            const subpage = document.getElementById('subpage');
+            const subpage = document.getElementById('subpage-content');
             if (request.contentType === 'md') {
                 data = marked.parse(data);
             }
