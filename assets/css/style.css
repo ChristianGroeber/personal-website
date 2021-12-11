@@ -133,6 +133,10 @@ img {
   color:red;
 }
 
+#subpage form {
+  width: 50%;
+}
+
 input, textarea {
   width: 100%;
 }
@@ -151,7 +155,7 @@ input, textarea {
   border: 1px solid rgba(0, 0, 0, 0.7);
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 600px) {
   .bottom-bar {
     right: unset;
     margin-right: unset;
@@ -170,6 +174,10 @@ input, textarea {
     margin: unset;
     background-color: white;
     border-radius: none;
+  }
+
+  #subpage form {
+    width: 95%;
   }
 
 
