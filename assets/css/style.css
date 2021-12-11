@@ -8,6 +8,10 @@ body {
   font-family: SF-Regular;
 }
 
+.application * {
+  text-decoration: none !important;
+}
+
 .page-content {
   min-height: 100vh;
 }
@@ -60,15 +64,58 @@ h1 {
 }
 
 .application {
-  text-decoration: none;
   display: block;
   width: 25%;
   text-align: center;
   color: black;
   margin: 20px 0;
+  position: relative;
 }
 
-img {
+.application .context-menu {
+  display: none;
+  position: absolute;
+  top: 80px;
+  min-height: 5px;
+  min-width: 10rem;
+  border-radius: 10px;
+  background-color:rgba(0, 0, 0, 0.301);
+  padding: 0 3px;
+  z-index: 10;
+}
+
+.application .context-menu.show {
+  display: block;
+}
+
+.application .context-menu * {
+  color: white !important;
+}
+
+.context-menu .menu-row {
+  height: 1.8rem;
+  cursor: pointer;
+  display: flex;
+  padding-top: 4px;
+}
+
+.menu-row .item-text {
+  display: block;
+  flex: 11;
+  text-align: left;
+}
+
+.item-icon {
+  display: block;
+  flex: 1;
+}
+
+.item-icon .mini-icon {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+img.img-responsive {
   display: block;
   margin: 0 auto;
   height: 80px;
@@ -85,6 +132,7 @@ img {
   background-color: rgba(0, 0, 0, 0.5);
   position: fixed;
   top: 0;
+  z-index: 20;
 }
 
 #subpage-wrapper.show {
@@ -172,6 +220,10 @@ input, textarea {
   .application img {
     height: 60px;
     width: 60px;
+  }
+
+  .application .context-menu {
+    top: 60px;
   }
 
   #subpage {

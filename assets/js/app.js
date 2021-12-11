@@ -10,8 +10,26 @@ fetch("/assets/apps.json")
                 printFolder(app);
             }
         })
+        window.addEventListener('contextmenu', (event) => {
+            var menu = hasCustomContextMenu(event.target);
+            if (menu !== false) {
+                event.preventDefault();
+                showContextMenu(menu);
+            }
+        });
     });
 
+
+function hasCustomContextMenu(element) {
+    if (element.tagName === 'BODY') {
+        return false;
+    }
+    if (element.classList.contains('has-custom-context-menu')) {
+        return element;
+    } else {
+        return hasCustomContextMenu(element.parentElement);
+    }
+}
 
 let viewingFolder = null;
 
@@ -45,17 +63,60 @@ function printApp(appJson, parentElement) {
     if (appJson.type === 'folder') {
         appJson.href = '#' + appJson.id;
     }
-    let appStr = "<a rel='noopener' type='" + appJson.type + "' class='application' href='" + appJson.href + "'";
+    var hasCustomContextMenu = appJson.meta !== undefined;
+    var appStr = "<div ";
+    var classString = "class='application";
+    if (hasCustomContextMenu) {
+        classString += " has-custom-context-menu";
+    }
+    appStr += classString + "'>";
+    appStr += "<a rel='noopener' type='" + appJson.type + "' href='" + appJson.href + "'";
     if (appJson.type !== 'folder') {
         appStr += " target='_blank'";
     }
-    appStr += "><div><img alt='" + appJson.name + "' src='" + appJson.thumb + "'>" +
+    appStr += "><div><img class='img-responsive' alt='" + appJson.name + "' src='" + appJson.thumb + "'>" +
         "</div><p class='name'>" + appJson.name + "</p></a>";
+    
+    if (hasCustomContextMenu) {
+        appStr += printContextMenu(appJson.meta);
+    }
+    appStr += "</div>";
     parentElement.innerHTML += appStr;
 
     if (appJson.type === 'folder') {
         document.querySelector("[href='#" + appJson.id + "']").addEventListener('click', toggleFolder);
     }
+}
+
+function printContextMenu(menu) {
+    var contextMenuString = "<div class='context-menu'>";
+    menu.forEach(function (menuItem) {
+        contextMenuString += printContextMenuItem(menuItem);
+    });
+    contextMenuString += "</div>";
+    return contextMenuString;
+}
+
+function printContextMenuItem(item) {
+    var ret = "<a class='menu-row' type='" + item.type + "' href='" + item.href + "' ";
+    if (item.type === "internal") {
+        ret += "internal-link='" + item.src + "' ";
+        ret += "content-type='" + item.contentType + "' ";
+        ret += "internal-title='" + item.internalTitle + "' ";
+    } else if (item.type === 'app') {
+        ret += "target='_blank' "
+    }
+    ret += ">";
+    ret += "<div class='item-text'>" + item.name + "</div>";
+    ret += "<div class='item-icon'><img class='mini-icon' src='" + item.icon + "'></div>";
+    ret += "</a>";
+
+    return ret;
+}
+
+function showContextMenu(e) {
+    var menu = e.getElementsByClassName('context-menu')[0];
+    menu.classList.add('show');
 }
 
 function printFolder(folderJson) {
@@ -69,7 +130,9 @@ function printFolder(folderJson) {
 
 function requestPage(request) {
     document.title = request.title + ' - Christian Gröber';
-    history.pushState({ page: request.url }, request.title, request.url);
+    history.pushState({
+        page: request.url
+    }, request.title, request.url);
     fetch(request.page)
         .then(response => response.text())
         .then(function (data) {
@@ -120,6 +183,7 @@ function findParent(elem, parentName) {
 const tagsToIdentify = ['img', 'a'];
 
 document.body.onclick = function (e) {
+    removeMenus();
     let link = false;
     if (e.target.tagName === 'a') {
         link = e.target;
@@ -127,7 +191,6 @@ document.body.onclick = function (e) {
         link = findParent(e.target, 'a');
     }
 
-    
     if (!link) {
         return false;
     }
@@ -152,5 +215,11 @@ function handleLink(link, clickEvent) {
     if (linkType === 'internal') {
         requestPage(request);
     }
+}
 
+function removeMenus() {
+    var menus = document.getElementsByClassName('context-menu'); 
+    for (var i = 0; i < menus.length; i++) {
+        menus[i].classList.remove('show');
+    }
 }

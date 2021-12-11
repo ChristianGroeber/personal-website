@@ -4,6 +4,23 @@
         "desc": "",
         "href": "https://wiki.christian-groeber.ch",
         "type": "app",
+        "meta": [
+            {
+                "name": "Github",
+                "icon": "/assets/images/mini-icons/github.png",
+                "type": "app",
+                "href": "https://github.com/christiangroeber/knowledge-base"
+            },
+            {
+                "name": "About",
+                "internalTitle": "Knowledge Base - About",
+                "icon": "/assets/images/mini-icons/about.png",
+                "type": "internal",
+                "href": "/knowledge-base/about",
+                "src": "/pages/abouts/knowledge-base.md",
+                "contentType": "md"
+            }
+        ],
         "thumb": "/assets/images/knowledge base.png"
     },
     {
