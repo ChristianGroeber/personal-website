@@ -67,13 +67,16 @@ function printFolder(folderJson) {
     document.getElementById(folderJson.id).addEventListener('click', closeFolders);
 }
 
-function requestPage(page, title = '') {
-    document.title = title + ' - Christian Gröber';
-    history.pushState({ page: 'contact' }, 'Contact', '/contact');
-    fetch(page)
+function requestPage(request) {
+    document.title = request.title + ' - Christian Gröber';
+    history.pushState({ page: request.url }, request.title, request.url);
+    fetch(request.page)
         .then(response => response.text())
         .then(function (data) {
             const subpage = document.getElementById('subpage');
+            if (request.contentType === 'md') {
+                data = marked.parse(data);
+            }
             subpage.innerHTML = data;
             document.getElementById('subpage-wrapper').classList.add('show');
         });
@@ -139,8 +142,15 @@ function handleLink(link, clickEvent) {
     }
     clickEvent.preventDefault();
 
+    const request = {
+        page: link.getAttribute('internal-link'),
+        title: link.getAttribute('internal-title'),
+        url: link.getAttribute('href'),
+        contentType: link.getAttribute('content-type'),
+    };
+
     if (linkType === 'internal') {
-        requestPage(link.getAttribute('internal-link'), link.getAttribute('internal-title'));
+        requestPage(request);
     }
 
 }
