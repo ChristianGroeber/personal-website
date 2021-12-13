@@ -79,7 +79,7 @@ h1 {
   min-height: 5px;
   min-width: 10rem;
   border-radius: 10px;
-  background-color:rgba(0, 0, 0, 0.301);
+  background-color: rgba(0, 0, 0, 0.301);
   padding: 0 3px;
   z-index: 10;
 }
@@ -97,6 +97,11 @@ h1 {
   cursor: pointer;
   display: flex;
   padding-top: 4px;
+}
+
+.context-menu .menu-row:hover {
+  transition: background-color ease 0.3s;
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .menu-row .item-text {
