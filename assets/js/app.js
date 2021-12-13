@@ -185,7 +185,7 @@ const tagsToIdentify = ['img', 'a'];
 document.body.onclick = function (e) {
     removeMenus();
     let link = false;
-    if (e.target.tagName === 'a') {
+    if (e.target.tagName.toLowerCase() === 'a') {
         link = e.target;
     } else {
         link = findParent(e.target, 'a');
@@ -200,7 +200,7 @@ document.body.onclick = function (e) {
 
 function handleLink(link, clickEvent) {
     let linkType = link.getAttribute('type');
-    if (linkType === 'app') {
+    if (linkType === 'app' || !linkType) {
         return null;
     }
     clickEvent.preventDefault();
