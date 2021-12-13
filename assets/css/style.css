@@ -211,7 +211,6 @@ input, textarea {
 
 @media screen and (max-width: 600px) {
   .bottom-bar {
-    right: unset;
     margin-right: unset;
     max-width: calc(100% - 20px);
     margin-left: 10px;
@@ -249,6 +248,12 @@ input, textarea {
   .app-collection {
     height: 90vw;
     width: 90vw;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .bottom-bar {
+    right: unset;
   }
 }
 
