@@ -153,6 +153,7 @@ img.img-responsive {
   margin: 5vh auto 5vh auto;
   padding: 5px;
   border-radius: 5px;
+  overflow: auto;
 }
 
 #close-btn {
