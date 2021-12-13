@@ -28,6 +28,17 @@
         "desc": "",
         "href": "http://howtophotography.christian-groeber.ch",
         "type": "app",
+        "meta": [
+            {
+                "name": "About",
+                "internalTitle": "How to Photography - About",
+                "icon": "/assets/images/mini-icons/about.png",
+                "type": "internal",
+                "href": "/how-to-photography/about",
+                "src": "/pages/abouts/how-to-photography.md",
+                "contentType": "md"
+            }
+        ],
         "thumb": "/assets/images/howtophotography 80x80.png"
     },
     {
@@ -35,6 +46,23 @@
         "desc": "",
         "href": "https://paris.christian-groeber.ch",
         "type": "app",
+        "meta": [
+            {
+                "name": "Github",
+                "icon": "/assets/images/mini-icons/github.png",
+                "type": "app",
+                "href": "https://github.com/ChristianGroeber/Paris-Blog"
+            },
+            {
+                "name": "About",
+                "internalTitle": "Paris Blog - About",
+                "icon": "/assets/images/mini-icons/about.png",
+                "type": "internal",
+                "href": "/paris-blog/about",
+                "src": "/pages/abouts/paris-blog.md",
+                "contentType": "md"
+            }
+        ],
         "thumb": "/assets/images/paris.png"
     },
     {
