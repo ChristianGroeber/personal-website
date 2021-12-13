@@ -17,6 +17,10 @@ fetch("/assets/apps.json")
                 showContextMenu(menu);
             }
         });
+        if (location.pathname !== '/') {
+            var link = document.querySelector("a[href='" + location.pathname + "']");
+            handleLink(link, null);
+        }
     });
 
 
@@ -203,7 +207,9 @@ function handleLink(link, clickEvent) {
     if (linkType === 'app' || !linkType) {
         return null;
     }
-    clickEvent.preventDefault();
+    if (clickEvent) {
+        clickEvent.preventDefault();
+    }
 
     const request = {
         page: link.getAttribute('internal-link'),
