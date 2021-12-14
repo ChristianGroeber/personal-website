@@ -229,3 +229,19 @@ function removeMenus() {
         menus[i].classList.remove('show');
     }
 }
+
+HTMLElement.prototype.disable = function () {
+    this.setAttribute('disabled', 'disabled');
+}
+HTMLElement.prototype.enable = function () {
+    this.removeAttribute('disabled');
+}
+HTMLElement.prototype.setText = function (t) {
+    this.innerText = t;
+}
+HTMLElement.prototype.show = function() {
+    this.classList.remove('hidden');
+}
+HTMLElement.prototype.hide = function() {
+    this.classList.add('hidden');
+}
