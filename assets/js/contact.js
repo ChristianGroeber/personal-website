@@ -20,6 +20,7 @@ function submitContactForm() {
             button.enable();
             button.setText('Submit');
             if (response.success) {
+                setDateLastMessage();
                 info.setText('Message successfully sent. I will get back to you as soon as possible');
                 info.classList.add('success');
                 info.classList.remove('error');
@@ -33,6 +34,17 @@ function submitContactForm() {
             }, 2000);
         }
     }
+}
+
+function canSendMessages() {
+    var dateLastMessage = new Date(localStorage.getItem('dateLastMessage'));
+    var diff = new Date() - dateLastMessage;
+
+    return diff > 86400000;
+}
+
+function setDateLastMessage() {
+    localStorage.setItem('dateLastMessage', new Date());
 }
 
 function validateForm(form) {
