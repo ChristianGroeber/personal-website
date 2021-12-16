@@ -1,3 +1,5 @@
+var availableAction = ['beforeOpen', 'afterOpen', 'beforeClose', 'afterClose'];
+
 fetch("/assets/apps.json")
     .then(response => response.json())
     .then(function (data) {
@@ -74,13 +76,17 @@ function printApp(appJson, parentElement) {
         classString += " has-custom-context-menu";
     }
     appStr += classString + "'>";
-    appStr += "<a rel='noopener' type='" + appJson.type + "' href='" + appJson.href + "'";
+    appStr += "<a class='app-link' rel='noopener' type='" + appJson.type + "' href='" + appJson.href + "'";
     if (appJson.type !== 'folder') {
         appStr += " target='_blank'";
     }
+    for (key in appJson.actions) {
+        var action = appJson.actions[key];
+        appStr += " " + key + "='" + action + "'";
+    }
     appStr += "><div><img class='img-responsive' alt='" + appJson.name + "' src='" + appJson.thumb + "'>" +
         "</div><p class='name'>" + appJson.name + "</p></a>";
-    
+
     if (hasCustomContextMenu) {
         appStr += printContextMenu(appJson.meta);
     }
@@ -132,7 +138,8 @@ function printFolder(folderJson) {
     document.getElementById(folderJson.id).addEventListener('click', closeFolders);
 }
 
-function requestPage(request) {
+function requestPage(request, link) {
+    executeAction('beforeload', link)
     document.title = request.title + ' - Christian Gröber';
     history.pushState({
         page: request.url
@@ -146,6 +153,7 @@ function requestPage(request) {
             }
             subpage.innerHTML = data;
             document.getElementById('subpage-wrapper').classList.add('show');
+            executeAction('afterload', link)
         });
 }
 
@@ -153,6 +161,22 @@ function closePage() {
     document.querySelector('#subpage-wrapper.show').classList.remove('show');
     document.title = 'Christian Gröber';
     history.pushState({}, 'Home', '/');
+}
+
+function executeAction(action, el) {
+    if (el.getAttribute(action) === null) {
+        return true;
+    }    
+
+    var fn = window[el.getAttribute(action)];
+
+    if (fn === undefined) {
+        return false;
+    }
+
+    fn();
+
+    return true;
 }
 
 function findChild(elem, childName) {
@@ -204,6 +228,7 @@ document.body.onclick = function (e) {
 
 function handleLink(link, clickEvent) {
     let linkType = link.getAttribute('type');
+    executeAction('beforeopen', link);
     if (linkType === 'app' || !linkType) {
         return null;
     }
@@ -219,12 +244,13 @@ function handleLink(link, clickEvent) {
     };
 
     if (linkType === 'internal') {
-        requestPage(request);
+        requestPage(request, link);
     }
+    executeAction('afteropen', link);
 }
 
 function removeMenus() {
-    var menus = document.getElementsByClassName('context-menu'); 
+    var menus = document.getElementsByClassName('context-menu');
     for (var i = 0; i < menus.length; i++) {
         menus[i].classList.remove('show');
     }
@@ -239,9 +265,15 @@ HTMLElement.prototype.enable = function () {
 HTMLElement.prototype.setText = function (t) {
     this.innerText = t;
 }
-HTMLElement.prototype.show = function() {
+HTMLElement.prototype.show = function () {
     this.classList.remove('hidden');
 }
-HTMLElement.prototype.hide = function() {
+HTMLElement.prototype.hide = function () {
     this.classList.add('hidden');
+}
+HTMLElement.prototype.addClass = function (className) {
+    this.classList.add(className);
+}
+HTMLElement.prototype.removeClass = function (className) {
+    this.classList.remove(className);
 }

@@ -86,3 +86,12 @@ function contactUpdateLength() {
 
     lengthField.innerText = length + "/5'000";
 }
+
+function checkIfClientCanSendMessage() {
+    console.log('checking');
+    if (!canSendMessages()) {
+        var errorField = document.getElementById('error-can-not-send-messages');
+        document.forms[0].hide();
+        errorField.show();
+    }
+}
