@@ -2,4 +2,4 @@ vendor
 composer.lock
 .vscode
 .idea
-contact_ips.json
+db.json

@@ -10,7 +10,7 @@
 <IfModule mod_rewrite.c>
     RewriteEngine On
 
-    RewriteRule ^(src|.vscode|content|node_modules|CHANGELOG\.md|users.json|composer\.(json|lock|phar))(/|$) index.html
+    RewriteRule ^(db.json|.vscode)(/|$) index.html
     # Enable URL rewriting
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d
