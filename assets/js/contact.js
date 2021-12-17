@@ -62,7 +62,6 @@ function validateForm(form) {
 
         if (!valid) {
             formValid = false;
-            console.log(error);
             error.show();
         }
     }
@@ -88,7 +87,6 @@ function contactUpdateLength() {
 }
 
 function checkIfClientCanSendMessage() {
-    console.log('checking');
     if (!canSendMessages()) {
         var errorField = document.getElementById('error-can-not-send-messages');
         document.forms[0].hide();
