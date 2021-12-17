@@ -15,6 +15,7 @@ function submitContactForm() {
 
     xhr.onreadystatechange = function (data) {
         if (xhr.readyState === 4) {
+            console.log(xhr.response);
             var response = JSON.parse(xhr.response);
             var info = document.getElementById('contact-success');
             button.enable();

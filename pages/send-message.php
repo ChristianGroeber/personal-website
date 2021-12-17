@@ -43,8 +43,6 @@ if (!key_exists($ip, $data['ips'])) {
     $ipObj = $data['ips'][$ip];
 }
 $data['ips'][$ip] = $ipObj;
-
-$data['ips'][$ip]['lastAccess'] = new DateTime();
 saveData($dataPath, $data);
 
 if ($ipObj['blocked']) {
@@ -62,7 +60,7 @@ if (strtolower($_SERVER['REQUEST_METHOD']) !== 'post') {
 
 $message = $_REQUEST['contact_message'];
 $email = $_REQUEST['contact_email'];
-$name = $_REQUEST['contact_name'];
+$name = $_REQUEST['contact_name'] ? $_REQUEST['contact_name'] : ' - ';
 
 // Check E-Mail validity
 $emailValid = filter_var($email, FILTER_VALIDATE_EMAIL);
@@ -101,12 +99,20 @@ if ($diff->invert === 0) {
 $now = new DateTime();
 
 //Build Message
-$msg = $message;
-$msg .= "\n\nFrom: " . $name;
-$msg .= "\n\nE-Mail: " . $email;
+$subject = "New Contact Form Entry";
 
-// $success = mail('christian.groeber@bluewin.ch', "New Contact Entry by " . $_REQUEST['contact_name'], $message, ['from', 'christian.groeber@nxtlvl.ch']);
-$success = true;
+$headers = "MIME-Version: 1.0";
+$headers .= "Content-type: text/plain; charset=UTF-8";
+$headers .= "From: {$name} christian.groeber@nxtlvl.ch";
+$headers .= "Reply-To: <{$email}>";
+$headers .= "Subject: {$subject}";
+$headers .= "X-Mailer: PHP/" . phpversion();
+
+$success = mail('christian.groeber@bluewin.ch', $subject, $message, $headers);
+
+if ($success) {
+    $data['ips'][$ip]['lastAccess'] = new DateTime();
+}
 
 $data['lastMessage'] = $now;
 saveData($dataPath, $data);
