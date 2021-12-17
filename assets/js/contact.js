@@ -25,13 +25,21 @@ function submitContactForm() {
                 info.classList.add('success');
                 info.classList.remove('error');
             } else {
-                info.setText('Error sending message, please try again later');
+                if (!('error' in response)) {
+                    var error = 'Error sending message, please try again later';
+                } else {
+                    var error = response.error;
+                }
+                info.setText(error);
                 info.classList.remove('success');
                 info.classList.add('error');
+                if (xhr.status === 401 || xhr.status === 429) {
+                    button.disable();
+                }
             }
             window.setTimeout(function () {
                 info.setText('');
-            }, 2000);
+            }, 5000);
         }
     }
 }
