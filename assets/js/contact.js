@@ -15,27 +15,33 @@ function submitContactForm() {
 
     xhr.onreadystatechange = function (data) {
         if (xhr.readyState === 4) {
-            console.log(xhr.response);
-            var response = JSON.parse(xhr.response);
             var info = document.getElementById('contact-success');
             button.enable();
             button.setText('Submit');
-            if (response.success) {
-                setDateLastMessage();
-                info.setText('Message successfully sent. I will get back to you as soon as possible');
-                info.classList.add('success');
-                info.classList.remove('error');
-            } else {
-                if (!('error' in response)) {
-                    var error = 'Error sending message, please try again later';
-                } else {
-                    var error = response.error;
-                }
+            if (xhr.status >= 500) {
+                var error = 'Error sending message, please try again later';
                 info.setText(error);
-                info.classList.remove('success');
-                info.classList.add('error');
-                if (xhr.status === 401 || xhr.status === 429) {
-                    button.disable();
+                info.removeClass('success');
+                info.addClass('error');
+            } else {
+                var response = JSON.parse(xhr.response);
+                if (response.success) {
+                    setDateLastMessage();
+                    info.setText('Message successfully sent. I will get back to you as soon as possible');
+                    info.addClass('success');
+                    info.removeClass('error');
+                } else {
+                    if (!('error' in response)) {
+                        var error = 'Error sending message, please try again later';
+                    } else {
+                        var error = response.error;
+                    }
+                    info.setText(error);
+                    info.removeClass('success');
+                    info.addClass('error');
+                    if (xhr.status === 401 || xhr.status === 429) {
+                        button.disable();
+                    }
                 }
             }
             window.setTimeout(function () {
