@@ -80,6 +80,13 @@
         "thumb": "/assets/images/2021-80x80.png"
     },
     {
+        "name": "2022",
+        "desc": "",
+        "href": "https://2022.christian-groeber.ch",
+        "type": "app",
+        "thumb": "/assets/images/2022-192x192.png"
+    },
+    {
         "name": "Links",
         "desc": "",
         "id": "links",
