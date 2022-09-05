@@ -10,7 +10,11 @@
 <IfModule mod_rewrite.c>
     RewriteEngine On
 
-    RewriteRule ^(db.json|.vscode|.git)(/|$) index.html
+    RewriteCond %{REQUEST_URI}::$1 ^(/.+)/(.*)::\2$
+
+    RewriteRule ^(.*) - [E=BASE:%1]
+
+    # RewriteRule ^(db.json|.vscode|.git)(/|$) index.html
     # Enable URL rewriting
     RewriteCond %{REQUEST_FILENAME} -s [OR]
     RewriteCond %{REQUEST_FILENAME} -l [OR]
