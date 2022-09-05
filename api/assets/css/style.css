@@ -1,6 +1,6 @@
 body {
   overflow-x: hidden;
-  background-image: url("/assets/images/wallpaper-2.jpeg");
+  background-image: url("/api/assets/images/wallpaper-2.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -273,15 +273,15 @@ input, textarea {
 
 @font-face {
   font-family: SF-Regular;
-  src: url("/assets/fonts/San\ Francisco/SF-Pro-Display-Regular.otf");
+  src: url("/api/assets/fonts/San\ Francisco/SF-Pro-Display-Regular.otf");
 }
 
 @font-face {
   font-family: SF-Bold;
-  src: url("/assets/fonts/San\ Francisco/SF-Pro-Display-Bold.otf");
+  src: url("/api/assets/fonts/San\ Francisco/SF-Pro-Display-Bold.otf");
 }
 
 @font-face {
   font-family: SF-Light;
-  src: url("/assets/fonts/San\ Francisco/SF-Pro-Display-Ultralight.otf");
+  src: url("/api/assets/fonts/San\ Francisco/SF-Pro-Display-Ultralight.otf");
 }
