@@ -14,14 +14,14 @@
             {
                 "name": "About",
                 "internalTitle": "Knowledge Base - About",
-                "icon": "/assets/images/mini-icons/about.png",
+                "icon": "/api/assets/images/mini-icons/about.png",
                 "type": "internal",
                 "href": "/knowledge-base/about",
-                "src": "/pages/abouts/knowledge-base.md",
+                "src": "/api/pages/abouts/knowledge-base.md",
                 "contentType": "md"
             }
         ],
-        "thumb": "/assets/images/knowledge base.png"
+        "thumb": "/api/assets/images/knowledge base.png"
     },
     {
         "name": "How To Photography",
@@ -32,14 +32,14 @@
             {
                 "name": "About",
                 "internalTitle": "How to Photography - About",
-                "icon": "/assets/images/mini-icons/about.png",
+                "icon": "/api/assets/images/mini-icons/about.png",
                 "type": "internal",
                 "href": "/how-to-photography/about",
-                "src": "/pages/abouts/how-to-photography.md",
+                "src": "/api/pages/abouts/how-to-photography.md",
                 "contentType": "md"
             }
         ],
-        "thumb": "/assets/images/howtophotography 80x80.png"
+        "thumb": "/api/assets/images/howtophotography 80x80.png"
     },
     {
         "name": "Paris Blog",
@@ -49,73 +49,73 @@
         "meta": [
             {
                 "name": "Github",
-                "icon": "/assets/images/mini-icons/github.png",
+                "icon": "/api/assets/images/mini-icons/github.png",
                 "type": "app",
                 "href": "https://github.com/ChristianGroeber/Paris-Blog"
             },
             {
                 "name": "About",
                 "internalTitle": "Paris Blog - About",
-                "icon": "/assets/images/mini-icons/about.png",
+                "icon": "/api/assets/images/mini-icons/about.png",
                 "type": "internal",
                 "href": "/paris-blog/about",
-                "src": "/pages/abouts/paris-blog.md",
+                "src": "/api/pages/abouts/paris-blog.md",
                 "contentType": "md"
             }
         ],
-        "thumb": "/assets/images/paris.png"
+        "thumb": "/api/assets/images/paris.png"
     },
     {
         "name": "Photography Portfolio",
         "desc": "",
         "href": "https://foto.christian-groeber.ch",
         "type": "app",
-        "thumb": "/assets/images/photography-portfolio.png"
+        "thumb": "/api/assets/images/photography-portfolio.png"
     },
     {
         "name": "2021",
         "desc": "",
         "href": "https://2021.christian-groeber.ch",
         "type": "app",
-        "thumb": "/assets/images/2021-80x80.png"
+        "thumb": "/api/assets/images/2021-80x80.png"
     },
     {
         "name": "2022",
         "desc": "",
         "href": "https://2022.christian-groeber.ch",
         "type": "app",
-        "thumb": "/assets/images/2022-192x192.png"
+        "thumb": "/api/assets/images/2022-192x192.png"
     },
     {
         "name": "Links",
         "desc": "",
         "id": "links",
-        "thumb": "/assets/images/links.png",
+        "thumb": "/api/assets/images/links.png",
         "type": "folder",
         "apps": [
             {
                 "name": "Github",
                 "desc": "",
                 "href": "https://github.com/christiangroeber",
-                "thumb": "/assets/images/github.png"
+                "thumb": "/api/assets/images/github.png"
             },
             {
                 "name": "Instagram",
                 "desc": "",
                 "href": "https://instagram.com/christian.groeber.98",
-                "thumb": "/assets/images/instagram.png"
+                "thumb": "/api/assets/images/instagram.png"
             },
             {
                 "name": "Linkedin",
                 "desc": "",
                 "href": "https://www.linkedin.com/in/christian-groeber/",
-                "thumb": "/assets/images/linkedin.png"
+                "thumb": "/api/assets/images/linkedin.png"
             },
             {
                 "name": "Twitter",
                 "desc": "",
                 "href": "https://twitter.com/christiangr1998",
-                "thumb": "/assets/images/twitter.jpeg"
+                "thumb": "/api/assets/images/twitter.jpeg"
             }
         ]
     }

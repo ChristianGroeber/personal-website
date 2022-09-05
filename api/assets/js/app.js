@@ -1,6 +1,6 @@
 var availableAction = ['beforeOpen', 'afterOpen', 'beforeClose', 'afterClose'];
 
-fetch("/assets/apps.json")
+fetch("/api/assets/apps.json")
     .then(response => response.json())
     .then(function (data) {
         data.forEach(function (app) {

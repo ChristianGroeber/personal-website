@@ -10,9 +10,13 @@
 <IfModule mod_rewrite.c>
     RewriteEngine On
 
-    RewriteRule ^(db.json|.vscode)(/|$) index.html
+    RewriteRule ^(db.json|.vscode|.git)(/|$) index.html
     # Enable URL rewriting
-    RewriteCond %{REQUEST_FILENAME} !-f
-    RewriteCond %{REQUEST_FILENAME} !-d
-    RewriteRule .? index.html [L]
+    RewriteCond %{REQUEST_FILENAME} -s [OR]
+    RewriteCond %{REQUEST_FILENAME} -l [OR]
+    RewriteCond %{REQUEST_FILENAME} -d
+    RewriteRule ^.*$ - [NC,L]
+
+    # Rewrite all other queries to the front controller.
+    RewriteRule .? /index.html [L]
 </IfModule>
