@@ -18,5 +18,5 @@
     RewriteRule ^.*$ - [NC,L]
 
     # Rewrite all other queries to the front controller.
-    RewriteRule .? /index.html [L]
+    RewriteRule .? %{ENV:BASE}/index.html [L]
 </IfModule>
