@@ -10,7 +10,7 @@ function submitContactForm() {
 
     button.disable();
     button.setText('Sending...');
-    xhr.open('POST', '/pages/send-message.php');
+    xhr.open('POST', '/api/pages/send-message.php');
     xhr.send(form);
 
     xhr.onreadystatechange = function (data) {
