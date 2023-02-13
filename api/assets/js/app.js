@@ -1,5 +1,3 @@
-var availableAction = ['beforeOpen', 'afterOpen', 'beforeClose', 'afterClose'];
-
 fetch("/api/assets/apps.json")
     .then(response => response.json())
     .then(function (data) {
