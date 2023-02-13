@@ -87,6 +87,13 @@
         "thumb": "/api/assets/images/2022-192x192.png"
     },
     {
+        "name": "2023",
+        "desc": "",
+        "href": "https://2023.christian-groeber.ch",
+        "type": "app",
+        "thumb": "/api/assets/images/2023-192x192.png"
+    },
+    {
         "name": "Links",
         "desc": "",
         "id": "links",
