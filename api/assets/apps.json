@@ -4,6 +4,7 @@
         "desc": "",
         "href": "https://wiki.christian-groeber.ch",
         "type": "app",
+        "hidden": true,
         "meta": [
             {
                 "name": "Github",

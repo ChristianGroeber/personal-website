@@ -3,15 +3,8 @@ var availableAction = ['beforeOpen', 'afterOpen', 'beforeClose', 'afterClose'];
 fetch("/api/assets/apps.json")
     .then(response => response.json())
     .then(function (data) {
-        data.forEach(function (app) {
-            if (app.type === undefined) {
-                app.type = 'app';
-            }
-            printApp(app, document.getElementById('homescreen'));
-            if (app.type === 'folder') {
-                printFolder(app);
-            }
-        })
+        var apps = data.filter(app => !app.hidden);
+        loopApps(apps);
         window.addEventListener('contextmenu', (event) => {
             var menu = hasCustomContextMenu(event.target);
             if (menu !== false) {
@@ -24,6 +17,18 @@ fetch("/api/assets/apps.json")
             handleLink(link, null);
         }
     });
+
+function loopApps(apps) {
+    apps.forEach(function (app) {
+        if (app.type === undefined) {
+            app.type = 'app';
+        }
+        printApp(app, document.getElementById('homescreen'));
+        if (app.type === 'folder') {
+            printFolder(app);
+        }
+    });
+}
 
 
 function hasCustomContextMenu(element) {
