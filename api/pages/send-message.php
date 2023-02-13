@@ -1,5 +1,14 @@
 <?php
 
+
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\SMTP;
+use PHPMailer\PHPMailer\Exception;
+
+//Load Composer's autoloader
+require '../../../vendor/autoload.php';
+require_once 'config/smtpcredentials.php';
+
 header('content-type: application/json');
 
 function saveData($dataPath, $data)
@@ -99,16 +108,19 @@ if ($diff->invert === 0) {
 $now = new DateTime();
 
 //Build Message
-$subject = "New Contact Form Entry";
+$subject = "christian-groeber.ch: New Contact Form Entry";
 
 $headers = "MIME-Version: 1.0";
 $headers .= "Content-type: text/plain; charset=UTF-8";
-$headers .= "From: {$name} christian.groeber@nxtlvl.ch";
-$headers .= "Reply-To: <{$email}>";
+$headers .= "From: {$name} christian.groeber@pixlmint.ch";
 $headers .= "Subject: {$subject}";
 $headers .= "X-Mailer: PHP/" . phpversion();
 
-$success = mail('christian.groeber@bluewin.ch', $subject, $message, $headers);
+$mail = new PHPMailer(true);
+print_r($mail);
+die();
+
+$success = mail('christian.groeber@pixlmint.ch', $subject, $message, $headers);
 
 if ($success) {
     $data['ips'][$ip]['lastAccess'] = new DateTime();

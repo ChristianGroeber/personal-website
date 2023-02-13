@@ -3,3 +3,4 @@ composer.lock
 .vscode
 .idea
 db.json
+config/smtpcredentials.php
