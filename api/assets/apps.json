@@ -67,6 +67,24 @@
         "thumb": "/api/assets/images/paris.png"
     },
     {
+        "name": "Review",
+        "desc": "",
+        "href": "https://review.pixlmint.ch",
+        "type": "app",
+        "meta": [
+            {
+                "name": "About",
+                "internalTitle": "Review - About",
+                "icon": "/api/assets/images/mini-icons/about.png",
+                "type": "internal",
+                "href": "/review/about",
+                "src": "/api/pages/abouts/review.md",
+                "contentType": "md"
+            }
+        ],
+        "thumb": "/api/assets/images/review-192x192.png"
+    },
+    {
         "name": "Photography Portfolio",
         "desc": "",
         "href": "https://foto.christian-groeber.ch",
