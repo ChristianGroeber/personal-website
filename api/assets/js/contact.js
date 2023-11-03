@@ -16,10 +16,11 @@ function submitContactForm() {
     xhr.onreadystatechange = function (data) {
         if (xhr.readyState === 4) {
             var info = document.getElementById('contact-success');
+            var error;
             button.enable();
             button.setText('Submit');
             if (xhr.status >= 500) {
-                var error = 'Error sending message, please try again later';
+                error = 'Error sending message, please try again later';
                 info.setText(error);
                 info.removeClass('success');
                 info.addClass('error');
@@ -32,9 +33,9 @@ function submitContactForm() {
                     info.removeClass('error');
                 } else {
                     if (!('error' in response)) {
-                        var error = 'Error sending message, please try again later';
+                        error = 'Error sending message, please try again later';
                     } else {
-                        var error = response.error;
+                        error = response.error;
                     }
                     info.setText(error);
                     info.removeClass('success');
@@ -68,7 +69,7 @@ function validateForm(form) {
 
     for (var i = 0; i < elements.length; i++) {
         var el = elements[i];
-        var error = document.querySelector('[error-for="' + el.getAttribute('id') + '"]');
+        var error = document.querySelector('[data-error-for="' + el.getAttribute('id') + '"]');
         var valid = el.checkValidity();
 
         if (error) {
@@ -92,7 +93,7 @@ function contactUpdateLength() {
 
     if (length > 5000) {
         button.setAttribute('disabled', 'disabled');
-        lengthField.classList.add('color-red')
+        lengthField.classList.add('color-red');
     } else {
         button.removeAttribute('disabled');
         lengthField.classList.remove('color-red');

@@ -4,7 +4,6 @@
         "desc": "",
         "href": "https://wiki.christian-groeber.ch",
         "type": "app",
-        "hidden": true,
         "meta": [
             {
                 "name": "Github",
@@ -122,7 +121,7 @@
             {
                 "name": "Github",
                 "desc": "",
-                "href": "https://github.com/christiangroeber",
+                "href": "https://github.com/pixlmint",
                 "thumb": "/api/assets/images/github.png"
             },
             {

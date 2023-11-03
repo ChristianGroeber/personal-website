@@ -2,22 +2,41 @@
 
 <form>
     <div>
-        <label for="email">Email</label>
-        <input type="email" required name="contact_email" id="email">
-        <div id="contact-error-email" error-for="email" class="error hidden">Please set an Email</div>
+        <div class="form-row">
+            <div class="form-label">
+                <label for="email">Email</label>
+            </div>
+            <div class="form-input">
+                <input type="email" required name="contact_email" id="email">
+                <div id="contact-error-email" data-error-for="email" class="error hidden">Please set an Email</div>
+            </div>
+        </div>
     </div>
     <div>
-        <label for="name">Name</label>
-        <input type="text" name="contact_name" id="name">
+        <div class="form-row">
+            <div class="form-label">
+                <label for="name">Name</label>
+            </div>
+            <div class="form-input">
+                <input type="text" name="contact_name" id="name">
+            </div>
+        </div>
     </div>
     <div>
-        <label for="message">Message</label>
-        <textarea name="contact_message" oninput="contactUpdateLength()" id="message" cols="30" rows="10"
-            required></textarea>
-        <div id="contact-error-message-empty" error-for="message" class="error hidden">Naw, don't want to tell me
-            anything? :(</div>
-        <span id="contact-message-length">0/5'000</span>
+        <div class="form-row">
+            <div class="form-label">
+                <label for="message">Message</label>
+            </div>
+            <div class="form-input">
+                <textarea name="contact_message" oninput="contactUpdateLength()" id="message" cols="30" rows="10"
+                          required></textarea>
+                <span id="contact-message-length">0/5'000</span>
+                <div id="contact-error-message-empty" data-error-for="message" class="error hidden">Naw, don't want to tell me
+                    anything? :(
+                </div>
+            </div>
+        </div>
     </div>
-    <button id="contact-button" type="button" onclick="submitContactForm()">Submit</button>
+    <button id="contact-button" class="btn" type="button" onclick="submitContactForm()">Submit</button>
     <div id="contact-success"></div>
 </form>
