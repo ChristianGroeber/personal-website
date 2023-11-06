@@ -2,14 +2,14 @@
     {
         "name": "Knowlege Base",
         "desc": "",
-        "href": "https://wiki.christian-groeber.ch",
+        "href": "https://wiki.pixlmint.ch",
         "type": "app",
         "meta": [
             {
                 "name": "Github",
-                "icon": "/assets/images/mini-icons/github.png",
+                "icon": "/api/assets/images/mini-icons/github.png",
                 "type": "app",
-                "href": "https://github.com/ChristianGroeber/wiki.christian-groeber.ch"
+                "href": "https://github.com/pixlmint/wiki"
             },
             {
                 "name": "About",
@@ -88,6 +88,7 @@
         "desc": "",
         "href": "https://foto.christian-groeber.ch",
         "type": "app",
+        "hidden": true,
         "thumb": "/api/assets/images/photography-portfolio.png"
     },
     {

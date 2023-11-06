@@ -169,6 +169,11 @@ img.img-responsive {
     overflow: auto;
 }
 
+#subpage .md {
+    max-width: 600px;
+    margin: 16px auto;
+}
+
 #close-btn {
     position: absolute;
     background: rgba(0, 0, 0, 0.8);

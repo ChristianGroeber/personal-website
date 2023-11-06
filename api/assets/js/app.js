@@ -151,10 +151,16 @@ function requestPage(request, link) {
         .then(response => response.text())
         .then(function (data) {
             const subpage = document.getElementById('subpage-content');
+            subpage.innerHTML = '';
             if (request.contentType === 'md') {
+                const mdContent = document.createElement('div');
+                mdContent.classList.add('md');
                 data = marked.parse(data);
+                mdContent.innerHTML = data;
+                subpage.append(mdContent);
+            } else {
+                subpage.innerHTML = data;
             }
-            subpage.innerHTML = data;
             document.getElementById('subpage-wrapper').classList.add('show');
             executeAction('afterload', link)
         });
@@ -169,7 +175,7 @@ function closePage() {
 function executeAction(action, el) {
     if (el.getAttribute(action) === null) {
         return true;
-    }    
+    }
 
     var fn = window[el.getAttribute(action)];
 
